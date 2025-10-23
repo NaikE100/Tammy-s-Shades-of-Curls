@@ -48,7 +48,7 @@ export const products: Product[] = [
   { id: 14, name: "Kormesic Rosemary Mint Hair Conditioner 480ml", brand: "Kormesic", price: 75.00, category: "Conditioner", image: "https://splendit.co.za/wp-content/uploads/2024/10/Kormesic-Rosemary-Mint-Hair-Conditioner-480ml.jpg" },
   { id: 15, name: "Kormesic Rosemary Mint Hair Mask 250ml", brand: "Kormesic", price: 75.00, category: "Mask", image: "https://www.makro.co.za/asset/rukmini/fccp/400/400/ng-fkpublic-ui-user-fbbe/hair-treatment/m/x/n/250-rosemary-and-mint-hair-masque-250ml-each-1-kormesic-original-imah85bww2kvqfvh.jpeg?q=90&crop=false" },
   { id: 16, name: "Kormesic Rosemary Mint Hair Oil 50ml", brand: "Kormesic", price: 75.00, category: "Oil", image: "https://splendit.co.za/wp-content/uploads/2024/10/Kormesic-Rosemary-Mint-Hair-Oil-50ml.jpg" },
-  { id: 17, name: "Kormesic Rosemary Mint Shampoo 480ml", brand: "Kormesic", price: 90.00, category: "Shampoo", image: "https://www.makro.co.za/asset/rukmini/fccp/850/1000/ng-fkpublic-ui-user-fbbe/shampoo/3/p/x/480-rosemary-and-mint-shampoo-480ml-each-1-kormesic-original-imah85beeynuz7ch.jpeg?q=20" },
+  { id: 17, name: "Kormesic Rosemary Mint Shampoo 480ml", brand: "Kormesic", price: 75.00, category: "Shampoo", image: "https://www.makro.co.za/asset/rukmini/fccp/850/1000/ng-fkpublic-ui-user-fbbe/shampoo/3/p/x/480-rosemary-and-mint-shampoo-480ml-each-1-kormesic-original-imah85beeynuz7ch.jpeg?q=20" },
   
   // Afrotex
   { id: 18, name: "Afrotex – Cholesterol Plus Conditioning", brand: "Afrotex", price: 60.00, category: "Conditioner", image: "https://i0.wp.com/hsmcosmetics.co.za/wp-content/uploads/2025/08/img_8751.jpeg?fit=1170%2C1162&ssl=1" },
@@ -71,96 +71,99 @@ export const products: Product[] = [
   { id: 29, name: "Superior Fragrance", brand: "Superior", price: 60.00, category: "Fragrance", image: "https://superior.africa/wp-content/uploads/2024/10/Versace-Eros-F.png" },
   
   // Two Oceans
-  { id: 362, name: "Argan Oil and Biotin Shampoo & Conditioner", brand: "Two Oceans", price: 180.00, category: "Combo", image: "https://twooceanshaircare.com/wp-content/uploads/2023/09/two-oceans-biotin-conditioner-600x816.png" },
-  { id: 30, name: "Argan+Keratin Brazilian Shampoo & Conditioner 1l", brand: "Two Oceans", price: 180.00, category: "Combo", image: "https://catalog.sixty60.co.za/v2/files/63d3862ff0cbac537c09037b?width=1440&height=1440" },
-  { id: 31, name: "Men's Beard Kit", brand: "Two Oceans", price: 150.00, category: "Men's Care", image: "https://www.beardkit.co.za/cdn/shop/files/mens-beard-kit.jpg?v=1729100000" },
+  { id: 30, name: "Argan Oil and Biotin Shampoo & Conditioner", brand: "Two Oceans", price: 180.00, category: "Combo", image: "https://twooceanshaircare.com/wp-content/uploads/2023/09/two-oceans-biotin-conditioner-600x816.png" },
+  { id: 31, name: "Argan+Keratin Brazilian Shampoo & Conditioner 1l", brand: "Two Oceans", price: 180.00, category: "Combo", image: "https://catalog.sixty60.co.za/v2/files/63d3862ff0cbac537c09037b?width=1440&height=1440" },
+  
+  // Beard Kit
+  { id: 32, name: "Men's Beard Kit", brand: "Beard Kit", price: 100.00, category: "Men's Care", image: "https://www.boredbox.co.za/wp-content/uploads/2024/01/3-Piece-Mens-Beard-Grooming-Kit-Value-Gift-Set-.jpg" },
   
   // Garnier
-  { id: 32, name: "Garnier Ultimate Blends Hair Food Banana 3-in-1", brand: "Garnier", price: 110.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2023/06/BANANA-HAIR-FOOD.jpg" },
-  { id: 33, name: "Garnier Ultimate Blends Hair Food Coconut", brand: "Garnier", price: 110.00, category: "Treatment", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkHwC9jQIx-h8ZMsm3wW7Z8Nk4mXjZvo-ypQ&s" },
-  { id: 34, name: "Garnier Ultimate Blends Hair Food Watermelon", brand: "Garnier", price: 110.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2023/06/Watermelon-Hair-Food-3-in-1-Multi-Use-Hair-Mask.jpg" },
-  { id: 35, name: "Garnier Ultimate Blends Nourishing Banana Hair", brand: "Garnier", price: 85.00, category: "Treatment", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7KRda3WqiRA3fqE0BKY0fF9vkq_tB3mA25A&s" },
-  { id: 36, name: "Garnier Ultimate Blends Nourishing Banana Hair", brand: "Garnier", price: 90.00, category: "Treatment", image: "https://www.dischem.co.za/api/catalog/product/3/6/3600542342896_f16ef7bdec61e8bb8d93919a8112fdbd.jpg?store=default&image-type=image" },
-  { id: 37, name: "Garnier Ultimate Blends Plumping Hair Food", brand: "Garnier", price: 85.00, category: "Treatment", image: "https://m.media-amazon.com/images/I/31-LBWfY2gL._SY580_.jpg" },
-  { id: 38, name: "Garnier Ultimate Blends Plumping Hair Food", brand: "Garnier", price: 85.00, category: "Treatment", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvB27PKTbCHEL6eeH6MtbozxExZ3IQmIEONQ&s" },
-  { id: 39, name: "Garnier Ultimate Blends Smoothing Coconut Hair", brand: "Garnier", price: 90.00, category: "Treatment", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn6P3iRIglxh_GOgZVmnCbWTDNTc3O10nPGw&s" },
-  { id: 40, name: "Garnier Ultimate Blends Smoothing Coconut", brand: "Garnier", price: 90.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2023/06/COCONUT-HAIR-FOOD-SHAMPOO-1.jpg" },
+  { id: 33, name: "Garnier Ultimate Blends Hair Food Banana 3-in-1", brand: "Garnier", price: 110.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2023/06/BANANA-HAIR-FOOD.jpg" },
+  { id: 34, name: "Garnier Ultimate Blends Hair Food Coconut", brand: "Garnier", price: 110.00, category: "Treatment", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkHwC9jQIx-h8ZMsm3wW7Z8Nk4mXjZvo-ypQ&s" },
+  { id: 35, name: "Garnier Ultimate Blends Hair Food Watermelon", brand: "Garnier", price: 110.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2023/06/Watermelon-Hair-Food-3-in-1-Multi-Use-Hair-Mask.jpg" },
+  { id: 36, name: "Garnier Ultimate Blends Nourishing Banana Hair", brand: "Garnier", price: 85.00, category: "Treatment", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7KRda3WqiRA3fqE0BKY0fF9vkq_tB3mA25A&s" },
+  { id: 37, name: "Garnier Ultimate Blends Nourishing Banana Hair", brand: "Garnier", price: 90.00, category: "Treatment", image: "https://www.dischem.co.za/api/catalog/product/3/6/3600542342896_f16ef7bdec61e8bb8d93919a8112fdbd.jpg?store=default&image-type=image" },
+  { id: 38, name: "Garnier Ultimate Blends Plumping Hair Food", brand: "Garnier", price: 85.00, category: "Treatment", image: "https://m.media-amazon.com/images/I/31-LBWfY2gL._SY580_.jpg" },
+  { id: 39, name: "Garnier Ultimate Blends Plumping Hair Food", brand: "Garnier", price: 85.00, category: "Treatment", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvB27PKTbCHEL6eeH6MtbozxExZ3IQmIEONQ&s" },
+  { id: 40, name: "Garnier Ultimate Blends Smoothing Coconut Hair", brand: "Garnier", price: 90.00, category: "Treatment", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn6P3iRIglxh_GOgZVmnCbWTDNTc3O10nPGw&s" },
+  { id: 41, name: "Garnier Ultimate Blends Smoothing Coconut", brand: "Garnier", price: 90.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2023/06/COCONUT-HAIR-FOOD-SHAMPOO-1.jpg" },
   
   // Karseell
-  { id: 41, name: "Collagen – Karseell Refill 500ml", brand: "Karseell", price: 150.00, category: "Treatment", image: "https://www.karseell.com/cdn/shop/files/collagen-refill-500ml.jpg?v=1729100000" },
-  { id: 42, name: "Karseell Maca Essence Hair Repair Collagen", brand: "Karseell", price: 150.00, category: "Treatment", image: "https://www.karseell.com/cdn/shop/files/maca-essence-repair-collagen.jpg?v=1729100000" },
-  { id: 43, name: "Karseell BNC Argan Collagen Treatment Refill", brand: "Karseell", price: 230.00, category: "Treatment", image: "https://www.karseell.com/cdn/shop/files/bnc-argan-collagen-refill.jpg?v=1729100000" },
-  { id: 44, name: "Karseell BNC Argan Collagen Treatment Tub", brand: "Karseell", price: 220.00, category: "Treatment", image: "https://www.karseell.com/cdn/shop/files/bnc-argan-collagen-tub.jpg?v=1729100000" },
-  { id: 45, name: "Karseell BNC Argan Oil 60ml", brand: "Karseell", price: 80.00, category: "Oil", image: "https://www.karseell.com/cdn/shop/files/bnc-argan-oil-60ml.jpg?v=1729100000" },
-  { id: 46, name: "Karseell BNC Keratin Straightening Treatment", brand: "Karseell", price: 150.00, category: "Treatment", image: "https://www.karseell.com/cdn/shop/files/bnc-keratin-straightening.jpg?v=1729100000" },
-  { id: 47, name: "Karseell Collagen Hair Mask Maca Formula", brand: "Karseell", price: 160.00, category: "Mask", image: "https://www.karseell.com/cdn/shop/files/collagen-maca-mask.jpg?v=1729100000" },
-  { id: 48, name: "Karseell Maca Conditioner 500ml", brand: "Karseell", price: 110.00, category: "Conditioner", image: "https://www.karseell.com/cdn/shop/files/maca-conditioner-500ml.jpg?v=1729100000" },
-  { id: 49, name: "Karseell Maca Essence Purple Hair Mask 500ml", brand: "Karseell", price: 180.00, category: "Mask", image: "https://www.karseell.com/cdn/shop/files/maca-purple-mask-500ml.jpg?v=1729100000" },
-  { id: 50, name: "Karseell Maca Essence Purple Shampoo 500ml", brand: "Karseell", price: 180.00, category: "Shampoo", image: "https://www.karseell.com/cdn/shop/files/maca-purple-shampoo-500ml.jpg?v=1729100000" },
-  { id: 51, name: "Karseell Maca Essence and Argan Oil 500ml", brand: "Karseell", price: 110.00, category: "Oil", image: "https://www.karseell.com/cdn/shop/files/maca-argan-oil-500ml.jpg?v=1729100000" },
-  { id: 52, name: "Karseell Maca Shampoo 500ml", brand: "Karseell", price: 110.00, category: "Shampoo", image: "https://www.karseell.com/cdn/shop/files/maca-shampoo-500ml.jpg?v=1729100000" },
+  { id: 42, name: "Collagen – Karseell Refill 500ml", brand: "Karseell", price: 200.00, category: "Treatment", image: "https://thelittlegift.co.za/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-31-at-15.42.13.jpeg" },
+  { id: 43, name: "Karseell Maca Essence Hair Repair Collagen", brand: "Karseell", price: 350.00, category: "Treatment", image: "https://media.licdn.com/dms/image/v2/D5622AQFBHga3ar-YvQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1716539041721?e=2147483647&v=beta&t=OCAXXd3hAxUCA920_pFT2Km3toAnPgPj1oVaz7oCwSw" },
+  { id: 44, name: "Karseell BNC Argan Collagen Treatment Refill", brand: "Karseell", price: 200.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2024/03/karseel-bnc-argan-treat.jpg" },
+  { id: 45, name: "Karseell BNC Argan Collagen Treatment Tub", brand: "Karseell", price: 250.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2024/03/karseel-bnc-argan-treat-tub.jpg" },
+  { id: 46, name: "Karseell BNC Argan Oil 60ml", brand: "Karseell", price: 120.00, category: "Oil", image: "https://www.marbleskinco.co.za/cdn/shop/files/karseel-bnc-argan-oil_jpg_grande.webp?v=1719830501" },
+  { id: 47, name: "Karseell BNC Keratin Straightening Treatment", brand: "Karseell", price: 250.00, category: "Treatment", image: "https://www.cosmeticconnection.co.za/cdn/shop/files/21468.jpg?v=1740051778" },
+  { id: 48, name: "Karseell Collagen Hair Mask Maca Formula", brand: "Karseell", price: 100.00, category: "Mask", image: "https://m.media-amazon.com/images/I/51heciyAISL.jpg" },
+  { id: 49, name: "Karseell Maca Conditioner 500ml", brand: "Karseell", price: 150.00, category: "Conditioner", image: "https://m.media-amazon.com/images/I/41Tmt4DSe1L.jpg" },
+  { id: 50, name: "Karseell Maca Essence Purple Hair Mask 500ml", brand: "Karseell", price: 250.00, category: "Mask", image: "https://splendit.co.za/wp-content/uploads/2024/12/Karseell_maca_power_Purple_Hair_Mask_Professional_Neutralizes_Brass__Yellow_Tones_For_B-4.jpg.webp" },
+  { id: 51, name: "Karseell Maca Essence Purple Shampoo 500ml", brand: "Karseell", price: 250.00, category: "Shampoo", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsKtNbGgLZPFNXB5IY5CttFRDyuzkF52ceOw&s" },
+  { id: 52, name: "Karseell Maca Essence and Argan Oil 50ml", brand: "Karseell", price: 150.00, category: "Oil", image: "https://m.media-amazon.com/images/I/616NKgMfLyL.jpg" },
+  { id: 53, name: "Karseell Maca Shampoo 500ml", brand: "Karseell", price: 150.00, category: "Shampoo", image: "https://m.media-amazon.com/images/I/51EjTKCTijL.jpg" },
   
   // Love My Hair
-  { id: 53, name: "Love My hair Get That Growth 100g", brand: "Love My Hair", price: 120.00, category: "Treatment", image: "https://lovemyhair.co.za/cdn/shop/files/get-that-growth-100g.jpg?v=1729100000" },
-  { id: 54, name: "Love My Hair Neem Powder 100g", brand: "Love My Hair", price: 75.00, category: "Treatment", image: "https://lovemyhair.co.za/cdn/shop/files/neem-powder-100g.jpg?v=1729100000" },
-  { id: 55, name: "Karseell Keratin Hair Mask", brand: "Karseell", price: 150.00, category: "Mask", image: "https://www.karseell.com/cdn/shop/files/keratin-hair-mask.jpg?v=1729100000" },
+  { id: 54, name: "Love My hair Get That Growth 100g", brand: "Love My Hair", price: 180.00, category: "Treatment", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzoEkyQeCrMS_Gltlb2I0xLtpL0gaKFP0h9g&s" },
+  { id: 55, name: "Love My Hair Neem Powder 100g", brand: "Love My Hair", price: 90.00, category: "Treatment", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfbLRjGlaUeBo4SrwPQpGqlwAPWBCZtUbyvg&s" },
   
-  // Generic
-  { id: 56, name: "Moulding Gel Maximum Strength Hairline & Edges", brand: "Generic", price: 75.00, category: "Gel", image: "https://www.vida.co.za/cdn/shop/files/moulding-gel-max-strength.jpg?v=1729100000" },
-  { id: 57, name: "So Easy Cholesterol Treatment 1kg", brand: "So Easy", price: 90.00, category: "Treatment", image: "https://www.rhythms.co.za/cdn/shop/files/so-easy-cholesterol-1kg.jpg?v=1729100000" },
+  // Temu
+  { id: 56, name: "Karseell Keratin Hair Mask", brand: "Temu", price: 85.00, category: "Mask", image: "https://m.media-amazon.com/images/I/51R-VS4++KL._AC_SL1000_.jpg" },
+  
+  // Vida
+  { id: 57, name: "Moulding Gel Maximum Strength Hairline & Edges", brand: "Vida", price: 120.00, category: "Gel", image: "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDE5OTAxMXxpbWFnZS9qcGVnfGFEYzRMMmhoWVM4eE1USXhOak14TVRZeE5UVXhPQXw0Y2YwMmU2NzA4ZmU1NzlkMmMxMjQ2Zjc1ZDA2YzI5OTYxYjUzN2VjN2ZkZDk4NjI2YTg0YzU4M2UyNTMyOGNj" },
+  
+  // Rhythms
+  { id: 58, name: "So Easy Cholesterol Treatment 1kg", brand: "Rhythms", price: 70.00, category: "Treatment", image: "https://www.cosmeticconnection.co.za/cdn/shop/products/rhythms-so-easy-cholesterol-treatment-1l-33327319908502.jpg?v=1655459908" },
   
   // Originals
-  { id: 58, name: "Originals Deep Conditioner 426g", brand: "Originals", price: 135.00, category: "Conditioner", image: "https://www.originals.co.za/cdn/shop/files/deep-conditioner-426g.jpg?v=1729100000" },
-  { id: 59, name: "Originals Hair Mayonnaise 425g", brand: "Originals", price: 135.00, category: "Treatment", image: "https://www.originals.co.za/cdn/shop/files/hair-mayonnaise-425g.jpg?v=1729100000" },
-  { id: 60, name: "Originals Leave in Conditioner 177ml", brand: "Originals", price: 135.00, category: "Conditioner", image: "https://www.originals.co.za/cdn/shop/files/leave-in-conditioner-177ml.jpg?v=1729100000" },
-  { id: 61, name: "Originals Olive Oil Shampoo 355ml", brand: "Originals", price: 135.00, category: "Shampoo", image: "https://www.originals.co.za/cdn/shop/files/olive-oil-shampoo-355ml.jpg?v=1729100000" },
-  { id: 62, name: "Originals Stimulating Growth Oil 118ml Argan", brand: "Originals", price: 135.00, category: "Oil", image: "https://www.originals.co.za/cdn/shop/files/stimulating-growth-oil-argan-118ml.jpg?v=1729100000" },
-  { id: 63, name: "Originals Cholesterol & Tea-Tree Leave-In", brand: "Originals", price: 135.00, category: "Conditioner", image: "https://www.originals.co.za/cdn/shop/files/cholesterol-tea-tree-leave-in.jpg?v=1729100000" },
+  { id: 59, name: "Originals Deep Conditioner 426g", brand: "Originals", price: 60.00, category: "Conditioner", image: "https://media.takealot.com/covers_images/aab04ef1baf24752a97f2ee5999c76bc/s-pdpxl.file" },
+  { id: 60, name: "Originals Hair Mayonnaise 425g", brand: "Originals", price: 60.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2020/05/Originals_hair_mayonnaise_426g_900x-scaled.jpg" },
+  { id: 61, name: "Originals Leave in Conditioner 177ml", brand: "Originals", price: 60.00, category: "Conditioner", image: "https://media.takealot.com/covers_images/7fee17ced8c24cbb93bca97bf0050514/s-pdpxl.file" },
+  { id: 62, name: "Originals Olive Oil Shampoo 355ml", brand: "Originals", price: 60.00, category: "Shampoo", image: "https://media.takealot.com/covers_images/266dc46679f3404b9944b54a9fa9f8a5/s-zoom.file" },
+  { id: 63, name: "Originals Stimulating Growth Oil 118ml Argan", brand: "Originals", price: 60.00, category: "Oil", image: "https://originalsbyafricasbest.com/cdn/shop/products/1quE6cveMkfFPfDPg4U97uhKCvhBnC0T.jpg?v=1664494003" },
+  { id: 64, name: "Originals Cholesterol & Tea-Tree Leave-In", brand: "Originals", price: 75.00, category: "Conditioner", image: "https://m.media-amazon.com/images/I/417Jy4uEpXL._SY580_.jpg" },
   
   // Inecto
-  { id: 64, name: "Inecto Conditioning Hair Colour 250ml", brand: "Inecto", price: 75.00, category: "Hair Color", image: "https://www.inecto.co.za/cdn/shop/files/conditioning-hair-colour-250ml.jpg?v=1729100000" },
-  { id: 65, name: "Inecto Conditioning Hair Colour 50ml", brand: "Inecto", price: 20.00, category: "Hair Color", image: "https://www.inecto.co.za/cdn/shop/files/conditioning-hair-colour-50ml.jpg?v=1729100000" },
-  { id: 66, name: "Inecto Conditioning Hair Colour 50ml", brand: "Inecto", price: 20.00, category: "Hair Color", image: "https://www.inecto.co.za/cdn/shop/files/conditioning-hair-colour-50ml.jpg?v=1729100000" },
-  { id: 67, name: "Inecto Conditioning Hair Colour 50ml", brand: "Inecto", price: 20.00, category: "Hair Color", image: "https://www.inecto.co.za/cdn/shop/files/conditioning-hair-colour-50ml.jpg?v=1729100000" },
-  { id: 68, name: "Inecto – Unlimited Dye 100ml", brand: "Inecto", price: 25.00, category: "Hair Color", image: "https://www.inecto.co.za/cdn/shop/files/unlimited-dye-100ml.jpg?v=1729100000" },
-  { id: 69, name: "Inecto – Conditioning Hair Colour 250ml", brand: "Inecto", price: 75.00, category: "Hair Color", image: "https://www.inecto.co.za/cdn/shop/files/conditioning-hair-colour-250ml.jpg?v=1729100000" },
-  { id: 70, name: "Inecto – Conditioning Hair Colour 250ml", brand: "Inecto", price: 75.00, category: "Hair Color", image: "https://www.inecto.co.za/cdn/shop/files/conditioning-hair-colour-250ml.jpg?v=1729100000" },
-  { id: 71, name: "Inecto – Conditioning Hair Colour 50ml", brand: "Inecto", price: 20.00, category: "Hair Color", image: "https://www.inecto.co.za/cdn/shop/files/conditioning-hair-colour-50ml.jpg?v=1729100000" },
-  { id: 72, name: "Inecto – Conditioning Hair Colour 50ml", brand: "Inecto", price: 20.00, category: "Hair Color", image: "https://www.inecto.co.za/cdn/shop/files/conditioning-hair-colour-50ml.jpg?v=1729100000" },
-  
+  { id: 65, name: "Inecto Conditioning Hair Colour 250ml", brand: "Inecto", price: 65.00, category: "Hair Color", image: "https://media.takealot.com/covers_images/a36b0a157e5a4f9890f57ead1362524c/s-pdpxl.file" },
+  { id: 66, name: "Inecto Conditioning Hair Colour 50ml", brand: "Inecto", price: 20.00, category: "Hair Color", image: "https://splendit.co.za/wp-content/uploads/2021/07/Sachet_Strawberry.jpg" },
+  { id: 67, name: "Inecto Conditioning hair Colour 50ml", brand: "Inecto", price: 20.00, category: "Hair Color", image: "https://splendit.co.za/wp-content/uploads/2021/07/Sachet_Indigo-Infusion-Dark-Blue.jpg" },
+  { id: 68, name: "Inecto Conditioning Hair Colour 50ml", brand: "Inecto", price: 20.00, category: "Hair Color", image: "https://cdn-prd-02.pnp.co.za/sys-master/images/h78/h92/11276803473438/silo-product-image-v2-03Oct2023-180232-6009802425824-Straight_on-179388-398_515Wx515H" },
   // Rollers
-  { id: 73, name: "Rollers – Green", brand: "Generic", price: 30.00, category: "Tools", image: "https://www.hairrollers.co.za/cdn/shop/files/green-rollers.jpg?v=1729100000" },
-  { id: 74, name: "Rollers – Orange", brand: "Generic", price: 30.00, category: "Tools", image: "https://www.hairrollers.co.za/cdn/shop/files/orange-rollers.jpg?v=1729100000" },
-  { id: 75, name: "Rollers – Pink", brand: "Generic", price: 30.00, category: "Tools", image: "https://www.hairrollers.co.za/cdn/shop/files/pink-rollers.jpg?v=1729100000" },
-  { id: 76, name: "Rollers – Purple", brand: "Generic", price: 30.00, category: "Tools", image: "https://www.hairrollers.co.za/cdn/shop/files/purple-rollers.jpg?v=1729100000" },
-  { id: 77, name: "Rollers – Yellow", brand: "Generic", price: 30.00, category: "Tools", image: "https://www.hairrollers.co.za/cdn/shop/files/yellow-rollers.jpg?v=1729100000" },
-  { id: 78, name: "Rollers Small – Blue and Red 24 in Pack", brand: "Generic", price: 30.00, category: "Tools", image: "https://www.hairrollers.co.za/cdn/shop/files/small-blue-red-pack-24.jpg?v=1729100000" },
+  { id: 69, name: "Rollers – Green", brand: "Rollers", price: 80.00, category: "Tools", image: "https://hubbe.co.za/cdn/shop/products/033-001402.jpg?v=1663352149" },
+  { id: 70, name: "Rollers – Orange", brand: "Rollers", price: 80.00, category: "Tools", image: "https://media.takealot.com/covers_images/c06553282b694e6da8a408b67ff370dd/s-pdpxl.file" },
+  { id: 71, name: "Rollers – Pink", brand: "Rollers", price: 75.00, category: "Tools", image: "https://i.ebayimg.com/images/g/MZMAAOSw8EBlsawG/s-l1200.jpg" },
+  { id: 72, name: "Rollers – Purple", brand: "Rollers", price: 180.00, category: "Tools", image: "https://mopani.co.za/cdn/shop/files/262766.webp?v=1720598624" },
+  { id: 73, name: "Rollers – Yellow", brand: "Rollers", price: 140.00, category: "Tools", image: "https://media.takealot.com/covers_images/7619098bbe634ace84b3785f0dbd9238/s-pdpxl.file" },
+  { id: 74, name: "Rollers Small – Blue and Red 24 in Pack", brand: "Rollers", price: 80.00, category: "Tools", image: "https://chatgpt.com/backend-api/estuary/content?id=file_000000005200622faf438b95257c10a2&ts=489062&p=fs&cid=1&sig=6a7b1ad205cd700f73963016bde9fdffcfa580c61b3bc85220a335e44b3e6e51&v=0" },
+  
   
   // Basics
-  { id: 79, name: "Basic Hairclips Plastic 3pc", brand: "Basics", price: 30.00, category: "Accessories", image: "https://www.basics.co.za/cdn/shop/files/plastic-hairclips-3pc.jpg?v=1729100000" },
-  { id: 80, name: "Basic H/Brush TTR Flex Head", brand: "Basics", price: 60.00, category: "Tools", image: "https://www.basics.co.za/cdn/shop/files/hbrush-ttr-flex-head.jpg?v=1729100000" },
-  { id: 81, name: "Basics Hair Detangling Brush Black", brand: "Basics", price: 60.00, category: "Tools", image: "https://www.basics.co.za/cdn/shop/files/detangling-brush-black.jpg?v=1729100000" },
-  { id: 82, name: "Basics Hair Detangling Brush White", brand: "Basics", price: 60.00, category: "Tools", image: "https://www.basics.co.za/cdn/shop/files/detangling-brush-white.jpg?v=1729100000" },
-  { id: 83, name: "Flex Brush Assorted", brand: "Basics", price: 45.00, category: "Tools", image: "https://www.homeandtoy.co.za/cdn/shop/files/flex-brush-assorted.jpg?v=1729100000" },
+  { id: 75, name: "Basics Hairclips Plastic 3pc", brand: "Basics", price: 40.00, category: "Accessories", image: "https://images-na.ssl-images-amazon.com/images/I/51FMNqCguIL._SL500_._AC_SL500_.jpg" },
+  { id: 76, name: "Basics H/Brush TTR Flex Head", brand: "Basics", price: 50.00, category: "Tools", image: "https://m.media-amazon.com/images/I/614LIrZ9WXL._AC_SL1100_.jpg" },
+  { id: 77, name: "Basics Hair Detangling Brush Black", brand: "Basics", price: 55.00, category: "Tools", image: "https://www.dischem.co.za/api/catalog/product/5/d/5dbc3b8575e00_6009543700716.jpg?store=default&image-type=image" },
+  { id: 78, name: "Basics Hair Detangling Brush White", brand: "Basics", price: 60.00, category: "Tools", image: "https://www.dischem.co.za/api/catalog/product/5/e/5eb024ae599a6_6009543700747.jpg?width=265&height=265&store=default&image-type=image" },
+  
+  // Home & Toy
+  { id: 79, name: "Flex Brush Assorted", brand: "Home & Toy", price: 50.00, category: "Tools", image: "https://m.media-amazon.com/images/I/614LIrZ9WXL._AC_SL1100_.jpg" },
   
   // My Natural Hair
-  { id: 84, name: "My Natural Hair", brand: "My Natural Hair", price: 70.00, category: "Treatment", image: "https://mynaturalhair.co.za/cdn/shop/files/my-natural-hair-product.jpg?v=1729100000" },
-  { id: 85, name: "My Natural Hair", brand: "My Natural Hair", price: 70.00, category: "Treatment", image: "https://mynaturalhair.co.za/cdn/shop/files/my-natural-hair-product.jpg?v=1729100000" },
-  { id: 86, name: "My Natural Hair – Hair Hydrating Conditioner", brand: "My Natural Hair", price: 110.00, category: "Conditioner", image: "https://mynaturalhair.co.za/cdn/shop/files/hair-hydrating-conditioner.jpg?v=1729100000" },
-  { id: 87, name: "My Natural Hair – Hair Nourishing Shampoo", brand: "My Natural Hair", price: 110.00, category: "Shampoo", image: "https://mynaturalhair.co.za/cdn/shop/files/hair-nourishing-shampoo.jpg?v=1729100000" },
-  { id: 88, name: "My Natural Hair – Hair Strengthening Oil 150ml", brand: "My Natural Hair", price: 110.00, category: "Oil", image: "https://mynaturalhair.co.za/cdn/shop/files/hair-strengthening-oil-150ml.jpg?v=1729100000" },
+  { id: 80, name: "My Natural Hair", brand: "My Natural Hair", price: 60.00, category: "Treatment", image: "https://media.takealot.com/covers_tsins/45786167/45786167%20-1-pdpxl.jpg" },
+  { id: 81, name: "My Natural Hair", brand: "My Natural Hair", price: 60.00, category: "Treatment", image: "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDI1MjU2fGltYWdlL2pwZWd8Y0hKdlpIVmpkQzFwYldGblpYTXZhRGRtTDJobFlTODRPRFkyTnpjek1EUXhNVGd5TG1wd1p3fGRlMjQwOTc2M2QyOWViNmM0MmMyNjU1ZjFiM2Q3MjgxOWY2MDYwYzRlNDE2ZmIyN2E2NjcyNjkwOTMyOGNjMmE" },
+  { id: 82, name: "My Natural Hair – Hair Hydrating Conditioner", brand: "My Natural Hair", price: 34.90, category: "Conditioner", image: "https://media.takealot.com/covers_tsins/45786166/45786166%20-1-pdpxl.jpg" },
+  { id: 83, name: "My Natural Hair – Hair Nourishing Shampoo", brand: "My Natural Hair", price: 34.90, category: "Shampoo", image: "https://mynaturalhair.co.za/wp-content/uploads/2016/08/Nourishing-Shampoo-250ml.jpg" },
+  { id: 84, name: "My Natural Hair – Hair Strengthening Oil 150ml", brand: "My Natural Hair", price: 29.90, category: "Oil", image: "https://www.baki.co.ke/wp-content/smush-webp/2024/03/Screenshot-2024-03-29-221542-150x181.jpg.webp" },
   
-  // Accessories
-  { id: 89, name: "Head Bands", brand: "Generic", price: 30.00, category: "Accessories", image: "https://www.anzel.co.za/cdn/shop/files/head-bands.jpg?v=1729100000" },
-  { id: 90, name: "Scrunchies Bunchie – Scrunchies", brand: "Generic", price: 30.00, category: "Accessories", image: "https://www.anzel.co.za/cdn/shop/files/scrunchies-bunchie.jpg?v=1729100000" },
+  // Anzel
+  { id: 85, name: "Head Bands", brand: "Anzel", price: 40.00, category: "Accessories", image: "https://m.media-amazon.com/images/I/61OqnsIrRpL._AC_.jpg" },
+  { id: 86, name: "Scrunchies Bunchie – Scrunchies", brand: "Anzel", price: 20.00, category: "Accessories", image: "https://m.media-amazon.com/images/I/61OqnsIrRpL._AC_.jpg" },
   
   // Top Class
-  { id: 91, name: "Top Class Hair Mask Mix Fruit 1000ml", brand: "Top Class", price: 90.00, category: "Mask", image: "https://www.topclass.co.za/cdn/shop/files/hair-mask-mix-fruit-1000ml.jpg?v=1729100000" },
-  { id: 92, name: "Top Class JBCO Conditioner", brand: "Top Class", price: 125.00, category: "Conditioner", image: "https://www.topclass.co.za/cdn/shop/files/jbco-conditioner.jpg?v=1729100000" },
-  { id: 93, name: "Top Class JBCO Shampoo", brand: "Top Class", price: 125.00, category: "Shampoo", image: "https://www.topclass.co.za/cdn/shop/files/jbco-shampoo.jpg?v=1729100000" },
-  { id: 94, name: "Top Class Jamaican Black Castor Oil 115ml", brand: "Top Class", price: 105.00, category: "Oil", image: "https://www.topclass.co.za/cdn/shop/files/jbco-oil-115ml.jpg?v=1729100000" },
-  { id: 95, name: "Top Class Jamaican Black Castor Oil 150ml", brand: "Top Class", price: 125.00, category: "Oil", image: "https://www.topclass.co.za/cdn/shop/files/jbco-oil-150ml.jpg?v=1729100000" },
-  { id: 96, name: "Top Class Jamaican Black Castor Oil Hair", brand: "Top Class", price: 125.00, category: "Oil", image: "https://www.topclass.co.za/cdn/shop/files/jbco-oil-hair.jpg?v=1729100000" },
+  { id: 87, name: "Top Class Hair Mask Mix Fruit 1000ml", brand: "Top Class", price: 110.00, category: "Mask", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVSj7zMukQbInu-fLLPdmgb8WhCWwUwl6YKg&s" },
+  { id: 88, name: "Top Class JBCO Conditioner", brand: "Top Class", price: 70.00, category: "Conditioner", image: "https://splendit.co.za/wp-content/uploads/2023/07/JBCO-Conditioner-1-scaled.jpg" },
+  { id: 89, name: "Top Class JBCO Shampoo", brand: "Top Class", price: 70.00, category: "Shampoo", image: "https://topclasscosmetics.com/cdn/shop/files/TCJBCOShampoo_1.png?v=1708934513" },
+  { id: 90, name: "Top Class Jamaican Black Castor Oil 115ml", brand: "Top Class", price: 50.00, category: "Oil", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEoZJKSU3eiXrgyqmgedjLt5DqvvTs7pDDww&s" },
+  { id: 91, name: "Top Class Jamaican Black Castor Oil 150ml", brand: "Top Class", price: 70.00, category: "Oil", image: "https://hubbe.co.za/cdn/shop/files/JamaicanBlackCastorOil150ml.webp?v=1723387177" },
+  { id: 92, name: "Top Class Jamaican Black Castor Oil Hair", brand: "Top Class", price: 60.00, category: "Oil", image: "https://awesomedealz.co.za/wp-content/uploads/2022/07/83-Jamaican-coconut.jpg" },
   
   // As I Am
   { id: 97, name: "As I Am", brand: "As I Am", price: 185.00, category: "Treatment", image: "https://asiamnaturally.com/cdn/shop/files/as-i-am-general.jpg?v=1729100000" },
