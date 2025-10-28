@@ -10,20 +10,20 @@ export interface Product {
 
 // Fallback images from Unsplash for each category
 export const categoryFallbackImages: Record<string, string> = {
-  "Shampoo": "https://images.unsplash.com/photo-1686121544192-6112bb5ffded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc2hhbXBvbyUyMGJvdHRsZXxlbnwxfHx8fDE3NjA2MDkwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "Conditioner": "https://images.unsplash.com/photo-1686121544242-5780a88db2ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwY29uZGl0aW9uZXIlMjBib3R0bGV8ZW58MXx8fHwxNzYwNjA5MDMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "Oil": "https://images.unsplash.com/photo-1669281393403-e1f3248dce2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwb2lsJTIwYm90dGxlfGVufDF8fHx8MTc2MDYwOTAzMHww&ixlib=rb-4.1.0&q=80&w=1080",
-  "Mask": "https://images.unsplash.com/photo-1749137315710-89dc96d08463?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwbWFzayUyMGphcnxlbnwxfHx8fDE3NjA2MDkwMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "Gel": "https://images.unsplash.com/photo-1601568656750-bf1a9c205613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwZ2VsJTIwcHJvZHVjdHxlbnwxfHx8fDE3NjA2MDkwMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "Treatment": "https://images.unsplash.com/photo-1758788390320-16e1f280cf49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwdHJlYXRtZW50JTIwYm90dGxlfGVufDF8fHx8MTc2MDYwOTAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "Styling": "https://images.unsplash.com/photo-1751908918414-aad42b8179cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc3R5bGluZyUyMGNyZWFtfGVufDF8fHx8MTc2MDYwOTAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "Tools": "https://images.unsplash.com/photo-1713180758582-9bac6bc62a26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwYnJ1c2glMjB0b29sfGVufDF8fHx8MTc2MDYwOTAzNnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "Accessories": "https://images.unsplash.com/photo-1758214873602-7dc887f1f794?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwYWNjZXNzb3JpZXMlMjBjbGlwc3xlbnwxfHx8fDE3NjA1NDExNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "Hair Color": "https://images.unsplash.com/photo-1665791566713-d67ce4ed7cac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwY29sb3IlMjBkeWV8ZW58MXx8fHwxNzYwNjA5MDM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "Body Care": "https://images.unsplash.com/photo-1758788390320-16e1f280cf49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwdHJlYXRtZW50JTIwYm90dGxlfGVufDF8fHx8MTc2MDYwOTAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "Men's Care": "https://images.unsplash.com/photo-1758788390320-16e1f280cf49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwdHJlYXRtZW50JTIwYm90dGxlfGVufDF8fHx8MTc2MDYwOTAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "Combo": "https://images.unsplash.com/photo-1686121544192-6112bb5ffded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc2hhbXBvbyUyMGJvdHRsZXxlbnwxfHx8fDE3NjA2MDkwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "Fragrance": "https://images.unsplash.com/photo-1686121544192-6112bb5ffded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc2hhbXBvbyUyMGJvdHRsZXxlbnwxfHx8fDE3NjA2MDkwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "Shampoo": "https://mielleorganics.com/cdn/shop/files/RM_Shampoo_Render_20oz_Value_Size_v2_3de20550-eeab-4038-aea5-28a249851a27_5000x.jpg?v=1748414158",
+  "Conditioner": "https://media.takealot.com/covers_images/aab04ef1baf24752a97f2ee5999c76bc/s-pdpxl.file",
+  "Oil": "https://www.dischem.co.za/api/catalog/product/6/0/605deaa66a0f3_854102006732.jpg?store=default&image-type=image",
+  "Mask": "https://splendit.co.za/wp-content/uploads/2024/12/Karseell_maca_power_Purple_Hair_Mask_Professional_Neutralizes_Brass__Yellow_Tones_For_B-4.jpg.webp",
+  "Gel": "https://www.cosmeticconnection.co.za/cdn/shop/products/isoplus-isoplus-styling-gel-425ml-original-6003823000589-1607-33327206236310.jpg?v=1655456760",
+  "Treatment": "https://healthboutiquejo.com/cdn/shop/files/2606_PDP_N0_2000x2000_920e2031-b6e3-4d49-b74a-3b0b6ba01b15.webp?v=1740257579",
+  "Styling": "https://www.dischem.co.za/api/catalog/product/6/8/6858feaba1be0_854102006787.jpg?store=default&image-type=image",
+  "Tools": "https://hubbe.co.za/cdn/shop/products/033-001402.jpg?v=1663352149",
+  "Accessories": "https://images-na.ssl-images-amazon.com/images/I/51FMNqCguIL._SL500_._AC_SL500_.jpg",
+  "Hair Color": "https://media.takealot.com/covers_images/a36b0a157e5a4f9890f57ead1362524c/s-pdpxl.file",
+  "Body Care": "https://media.takealot.com/covers_images/2596f8ed66cd4a4094a75448400040e6/s-zoom.file",
+  "Men's Care": "https://www.boredbox.co.za/wp-content/uploads/2024/01/3-Piece-Mens-Beard-Grooming-Kit-Value-Gift-Set-.jpg",
+  "Combo": "https://catalog.sixty60.co.za/v2/files/63d3862ff0cbac537c09037b?width=1440&height=1440",
+  "Fragrance": "https://superior.africa/wp-content/uploads/2024/10/Versace-Eros-F.png",
 };
 
 export const products: Product[] = [
