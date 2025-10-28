@@ -323,7 +323,7 @@ export const products: Product[] = [
   { id: 225, name: "Skala Conditioner Assorted", brand: "Splendid", price: 40.00, category: "Conditioner", image: "https://www.skala.co.za/cdn/shop/files/assorted-conditioner.jpg?v=1729100000" },
   { id: 226, name: "Splendid Solid Hair Comb", brand: "Splendid", price: 60.00, category: "Tools", image: "https://www.splendid.co.za/cdn/shop/files/solid-hair-comb.jpg?v=1729100000" },
   { id: 227, name: "Splendid Edge Brush", brand: "Splendid", price: 15.00, category: "Tools", image: "https://www.splendid.co.za/cdn/shop/files/edge-brush.jpg?v=1729100000" },
-  { id: 228, name: "Top Class Jamaican Black Castor Oil Pomade – White", brand: "Top Class", price: 60.00, category: "Styling", image: "https://www.topclass.co.za/cdn/shop/files/jbco-pomade-white.jpg?v=1729100000" },
+  { id: 228, name: "Top Class Jamaican Black Castor Oil Pomade – White", brand: "Top Class", price: 60.00, category: "Styling", image: "https://topclasscosmetics.com/cdn/shop/files/Untitleddesign_34.png?v=1706601705&width=533" },
   
   // African Pride & Shein
   { id: 229, name: "Moisture Miracle Curling Cream 340g", brand: "African Pride", price: 95.00, category: "Styling", image: "https://africanpride.com/cdn/shop/files/moisture-miracle-curling-cream-340g.jpg?v=1729100000" },
