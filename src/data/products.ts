@@ -182,7 +182,7 @@ export const products: Product[] = [
   { id: 104, name: "Long & lasting – Naturals Shampoo 250ml", brand: "Long Lasting", price: 50.00, category: "Shampoo", image: "https://media.takealot.com/covers_images/5965d82f278341b0839c9b91ce121091/s-zoom.file" },
   { id: 105, name: "Long & Lasting – Naturals Shea Butter Oil 100ml", brand: "Long Lasting", price: 50.00, category: "Oil", image: "https://splendit.co.za/wp-content/uploads/2022/05/ll-sb-oil.jpg.webp" },
   { id: 106, name: "Long & Lasting – Oil Moisturizer 250ml", brand: "Long Lasting", price: 50.00, category: "Treatment", image: "https://www.maximed.co.za/cdn/shop/files/Long_LastingOilMoisturiser250ml_700x700.jpg?v=1727354490" },
-  { id: 107, name: "Long & lasting – Combo", brand: "Long Lasting", price: 300.00, category: "Combo", image: "https://longlasting.co.za/cdn/shop/files/combo-pack.jpg?v=1729100000" },
+  { id: 107, name: "Long & lasting – Combo", brand: "Long Lasting", price: 300.00, category: "Combo", image: "/src/assets/combo_deal_image.png" },
   
   // Mielle
   { id: 108, name: "Mielle Moisture RX Hawaiian Ginger", brand: "Mielle", price: 150.00, category: "Treatment", image: "https://m.media-amazon.com/images/I/419dwxAAj+L._SL500_.jpg" },
