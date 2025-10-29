@@ -22,7 +22,7 @@ export const categoryFallbackImages: Record<string, string> = {
   "Hair Color": "https://media.takealot.com/covers_images/a36b0a157e5a4f9890f57ead1362524c/s-pdpxl.file",
   "Body Care": "https://media.takealot.com/covers_images/2596f8ed66cd4a4094a75448400040e6/s-zoom.file",
   "Men's Care": "https://www.boredbox.co.za/wp-content/uploads/2024/01/3-Piece-Mens-Beard-Grooming-Kit-Value-Gift-Set-.jpg",
-  "Combo": "https://catalog.sixty60.co.za/v2/files/63d3862ff0cbac537c09037b?width=1440&height=1440",
+  "Combo": "/src/assets/combo_deal_image.png",
   "Fragrance": "https://superior.africa/wp-content/uploads/2024/10/Versace-Eros-F.png",
 };
 
