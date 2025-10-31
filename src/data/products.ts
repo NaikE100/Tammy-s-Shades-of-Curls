@@ -409,7 +409,7 @@ export const products: Product[] = [
   { id: 301, name: "Afri Pure – Oil Blend 100ml Peppermint", brand: "Afri Pure", price: 30.00, category: "Oil", image: "https://www.dischem.co.za/api/catalog/product/6/0/6009694918497_56d7c7c074cd2e02d657ad4fad9d7be9.jpg?store=default&image-type=image" },
   
   // Mrs J Accessories & Aunt Jackie's
-  { id: 302, name: "3-in-1 Hair Dryer, Volumizer & Styler", brand: "Mrs J Accessories", price: 190.00, category: "Tools", image: "https://mrsjaccessories.co.za/cdn/shop/files/3in1-hair-dryer-volumizer-styler.jpg?v=1729100000" },
+  { id: 302, name: "3-in-1 Hair Dryer, Volumizer & Styler", brand: "Mrs J Accessories", price: 190.00, category: "Tools", image: "https://media.takealot.com/covers_tsins/69555899/69555899-1-zoom.png" },
   { id: 303, name: "Hair Pins – Jolene Atlantis", brand: "Mrs J Accessories", price: 30.00, category: "Accessories", image: "https://mrsjaccessories.co.za/cdn/shop/files/jolene-atlantis-hair-pins.jpg?v=1729100000" },
   { id: 304, name: "Shine N Jam Conditioning Gel Extra Hold 4 oz 227ml", brand: "Mrs J Accessories", price: 90.00, category: "Gel", image: "https://mrsjaccessories.co.za/cdn/shop/files/shine-n-jam-extra-hold-227ml.jpg?v=1729100000" },
   { id: 305, name: "Aunt Jackie's – Treatment Mixed 227g", brand: "Aunt Jackie's", price: 130.00, category: "Treatment", image: "https://www.tjbeautyproducts.co.uk/cdn/shop/files/magic-mend.webp?v=1717159269&width=1200" },
