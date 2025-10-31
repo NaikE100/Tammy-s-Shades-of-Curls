@@ -134,7 +134,7 @@ export const products: Product[] = [
   { id: 71, name: "Rollers – Pink", brand: "Rollers", price: 75.00, category: "Tools", image: "https://i.ebayimg.com/images/g/MZMAAOSw8EBlsawG/s-l1200.jpg" },
   { id: 72, name: "Rollers – Purple", brand: "Rollers", price: 180.00, category: "Tools", image: "https://mopani.co.za/cdn/shop/files/262766.webp?v=1720598624" },
   { id: 73, name: "Rollers – Yellow", brand: "Rollers", price: 140.00, category: "Tools", image: "https://media.takealot.com/covers_images/7619098bbe634ace84b3785f0dbd9238/s-pdpxl.file" },
-  { id: 74, name: "Rollers Small – Blue and Red 24 in Pack", brand: "Rollers", price: 80.00, category: "Tools", image: "https://chatgpt.com/backend-api/estuary/content?id=file_000000005200622faf438b95257c10a2&ts=489062&p=fs&cid=1&sig=6a7b1ad205cd700f73963016bde9fdffcfa580c61b3bc85220a335e44b3e6e51&v=0" },
+  { id: 74, name: "Rollers Small – Blue and Red 24 in Pack", brand: "Rollers", price: 80.00, category: "Tools", image: "https://hubbe.co.za/cdn/shop/products/033-001402.jpg?v=1663352149" },
   
   
   // Basics
