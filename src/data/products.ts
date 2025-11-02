@@ -461,9 +461,9 @@ export const products: Product[] = [
   { id: 373, name: "Shower Hook Comb with Large Wide Teeth", brand: "Aunt Jackie's", price: 10.00, category: "Tools", image: "https://i5.walmartimages.com/asr/43283bd8-9e8b-482b-8105-4741297824fb.10d92946a880610dfb301a19205ff9c4.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" },
   
   // Dark & Lovely & Soft n Free & The Mane Choice
-  { id: 343, name: "Dark & Lovely – Au Naturale Anti-Breakage Root to Tip Mender", brand: "Dark & Lovely", price: 60.00, category: "Treatment", image: "https://www.amazon.com/cdn/shop/files/dark-lovely-au-naturale-root-tip-mender.jpg?v=1729100000" },
-  { id: 344, name: "Dark & Lovely – Au Naturale Clump Control Curl Milk", brand: "Dark & Lovely", price: 90.00, category: "Styling", image: "https://www.amazon.com/cdn/shop/files/dark-lovely-curl-defining-creme-glaze.jpg?v=1729100000" },
-  { id: 345, name: "Dark & Lovely – Au Naturale Coil Moisturizing Soufflé", brand: "Dark & Lovely", price: 90.00, category: "Treatment", image: "https://theglamourshop.com/cdn/shop/files/dark-lovely-coil-moisturizing-souffle.jpg?v=1729100000" },
+  { id: 343, name: "Dark & Lovely Repairing Hair Treatment 390ml", brand: "Dark & Lovely", price: 60.00, category: "Treatment", image: "https://catalog.sixty60.co.za/v2/files/63d386c9749cf491e8a290eb?width=1440&height=1440" },
+  { id: 344, name: "Dark & Lovely 48h Extra Hold Styling Gel 450ml", brand: "Dark & Lovely", price: 90.00, category: "Gel", image: "https://m.media-amazon.com/images/I/41Xn47Kp8JL._SY580_.jpg" },
+  { id: 345, name: "Dark & Lovely Au Naturale – Curl Power Curl", brand: "Dark & Lovely", price: 90.00, category: "Styling", image: "https://www.dischem.co.za/api/catalog/product/3/6/3610340638510_81562639fa4bfeabc4d628084ecd8138.jpg?store=default&image-type=image" },
   { id: 346, name: "Soft n Free – GroHealthy Curl Activator Moisturizer 355ml", brand: "Soft n Free", price: 70.00, category: "Styling", image: "https://www.amazon.com/cdn/shop/files/sofn-free-curl-activator-moisturizer.jpg?v=1729100000" },
   { id: 347, name: "Soft n Free – GroHealthy Curl Defining Pudding 355ml", brand: "Soft n Free", price: 70.00, category: "Styling", image: "https://www.amazon.com/cdn/shop/files/sofn-free-curl-defining-pudding.jpg?v=1729100000" },
   { id: 348, name: "Soft n Free – GroHealthy Olive Oil Anti-Breakage Formula", brand: "Soft n Free", price: 80.00, category: "Treatment", image: "https://www.amazon.com/cdn/shop/files/sofn-free-olive-oil-deep-conditioning-treatment.jpg?v=1729100000" },
