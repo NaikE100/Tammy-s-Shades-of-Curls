@@ -326,8 +326,8 @@ export const products: Product[] = [
   { id: 228, name: "Top Class Jamaican Black Castor Oil Pomade – White", brand: "Top Class", price: 60.00, category: "Styling", image: "https://topclasscosmetics.com/cdn/shop/files/Untitleddesign_34.png?v=1706601705&width=533" },
   
   // African Pride & Shein
-  { id: 229, name: "Moisture Miracle Curling Cream 340g", brand: "African Pride", price: 95.00, category: "Styling", image: "https://africanpride.com/cdn/shop/files/moisture-miracle-curling-cream-340g.jpg?v=1729100000" },
-  { id: 230, name: "Moisture Miracle Shampoo 354ml", brand: "African Pride", price: 95.00, category: "Shampoo", image: "https://africanpride.com/cdn/shop/files/moisture-miracle-shampoo-354ml.jpg?v=1729100000" },
+  { id: 229, name: "Moisture Miracle Curling Cream 340g", brand: "African Pride", price: 95.00, category: "Styling", image: "https://m.media-amazon.com/images/I/41gkkLPIyeL._SL500_.jpg" },
+  { id: 230, name: "Moisture Miracle Shampoo 354ml", brand: "African Pride", price: 95.00, category: "Shampoo", image: "https://m.media-amazon.com/images/I/71B7JDGEUSL.jpg" },
   { id: 231, name: "Jason – Hair Brush (Sponge)", brand: "Shein", price: 60.00, category: "Tools", image: "https://www.shein.com/cdn/shop/files/jason-sponge-hair-brush.jpg?v=1729100000" },
   { id: 232, name: "Double Lining Bonnet with String", brand: "Shein", price: 80.00, category: "Accessories", image: "https://www.shein.com/cdn/shop/files/double-lining-bonnet-string.jpg?v=1729100000" },
   { id: 233, name: "Dye Bottle Shein", brand: "Shein", price: 25.00, category: "Tools", image: "https://www.shein.com/cdn/shop/files/dye-bottle-applicator.jpg?v=1729100000" },
