@@ -352,14 +352,14 @@ export const products: Product[] = [
   { id: 255, name: "Women's Wide Brim Satin Sleep Cap, Hair Bonnet", brand: "Shein", price: 50.00, category: "Accessories", image: "https://www.shein.com/cdn/shop/files/wide-brim-satin-sleep-cap.jpg?v=1729100000" },
   
   // Cream of Nature
-  { id: 256, name: "Cream of Nature – Argan Oil Intensive Conditioning", brand: "Cream of Nature", price: 70.00, category: "Conditioner", image: "https://www.cremeofnature.com/cdn/shop/files/argan-intensive-conditioning.jpg?v=1729100000" },
-  { id: 257, name: "Cream of Nature – Argan Oil Strength & Shine", brand: "Cream of Nature", price: 70.00, category: "Treatment", image: "https://www.cremeofnature.com/cdn/shop/files/argan-strength-shine.jpg?v=1729100000" },
-  { id: 258, name: "Cream of Nature – Pure Honey Conditioner", brand: "Cream of Nature", price: 70.00, category: "Conditioner", image: "https://www.cremeofnature.com/cdn/shop/files/pure-honey-conditioner.jpg?v=1729100000" },
-  { id: 259, name: "Cream of Nature – Pure Honey Detangler 236.5ml", brand: "Cream of Nature", price: 70.00, category: "Treatment", image: "https://www.cremeofnature.com/cdn/shop/files/pure-honey-detangler-236ml.jpg?v=1729100000" },
-  { id: 260, name: "Cream of Nature – Pure Honey Shampoo 355ml", brand: "Cream of Nature", price: 70.00, category: "Shampoo", image: "https://www.cremeofnature.com/cdn/shop/files/pure-honey-shampoo-355ml.jpg?v=1729100000" },
-  { id: 261, name: "Cream of Nature – Argan Oil Perfect Edges 66ml", brand: "Cream of Nature", price: 70.00, category: "Gel", image: "https://www.cremeofnature.com/cdn/shop/files/argan-perfect-edges-66ml.jpg?v=1729100000" },
-  { id: 262, name: "Cream of Nature – Pure Honey Edge Control 63g", brand: "Cream of Nature", price: 70.00, category: "Gel", image: "https://www.cremeofnature.com/cdn/shop/files/pure-honey-edge-control-63g.jpg?v=1729100000" },
-  { id: 263, name: "Cream of Nature – Twist & Curl Pudding 354ml", brand: "Cream of Nature", price: 80.00, category: "Styling", image: "https://www.cremeofnature.com/cdn/shop/files/twist-curl-pudding-354ml.jpg?v=1729100000" },
+  { id: 256, name: "Cream of Nature – Argan Oil Intensive Conditioning", brand: "Cream of Nature", price: 70.00, category: "Conditioner", image: "https://www.dischem.co.za/api/catalog/product/7/5/75724252028_9177a8f28c508f4da8e9ba9996bdcf92.jpg?store=default&image-type=image" },
+  { id: 257, name: "Cream of Nature – Argan Oil Strength & Shine", brand: "Cream of Nature", price: 70.00, category: "Treatment", image: "https://www.cremeofnature.com/cdn/shop/files/CON_Argan_LeaveIn_8oz_REFRESH_AdReady_FINAL_980X980_6b03ce93-85f2-4bf0-afd6-bed8857beaa8.png?v=1735520537" },
+  { id: 258, name: "Cream of Nature – Pure Honey Conditioner", brand: "Cream of Nature", price: 70.00, category: "Conditioner", image: "https://i5.walmartimages.com/seo/Creme-of-Nature-Pure-Honey-Dry-Defense-Conditioner-12oz_a07464d2-0962-4bf0-95ef-bf8bed6466b3.43be9e68c8bd2dcb17fbc7e190b4caba.jpeg" },
+  { id: 259, name: "Cream of Nature – Pure Honey Detangler 236.5ml", brand: "Cream of Nature", price: 70.00, category: "Treatment", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPyhX1mOjYoiTi0PdtXMyxj0ACOchsi-Wjvg&s" },
+  { id: 260, name: "Cream of Nature – Pure Honey Shampoo 355ml", brand: "Cream of Nature", price: 70.00, category: "Shampoo", image: "https://www.dischem.co.za/api/catalog/product/7/5/75724428003_front_410bd0a5ec0d28c30cf635ab9b858196.jpg?width=400&height=400&store=default&image-type=image" },
+  { id: 261, name: "Cream of Nature – Argan Oil Perfect Edges 66ml", brand: "Cream of Nature", price: 70.00, category: "Gel", image: "https://media.takealot.com/covers_images/c66a24d2a9844e6bb058e58d4b5a71c8/s-zoom.file" },
+  { id: 262, name: "Cream of Nature – Pure Honey Edge Control 63g", brand: "Cream of Nature", price: 70.00, category: "Gel", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTB_azkjS0nEN1beJPM79k1k2hrNQKH0JlOg&s" },
+  { id: 263, name: "Cream of Nature – Twist & Curl Pudding 354ml", brand: "Cream of Nature", price: 80.00, category: "Styling", image: "https://www.cremeofnature.com/cdn/shop/files/CON_Argan_TwistCurlPudding_REFRESH_AdREADY_083024_980X980_2cf8075c-26bb-4d4c-aa46-58a7af8d3267.png?v=1735520629" },
   
   // Palmer's
   { id: 264, name: "Palmer's – Chai Seed & Argan Oil Hair Mask 60g", brand: "Palmer's", price: 40.00, category: "Mask", image: "https://www.palmers.com/cdn/shop/files/chai-seed-argan-mask-60g.jpg?v=1729100000" },
