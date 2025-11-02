@@ -383,7 +383,7 @@ export const products: Product[] = [
   { id: 280, name: "ORS – Wrap/set Mousse 207ml", brand: "ORS", price: 65.00, category: "Styling", image: "https://www.orshaircare.com/cdn/shop/files/wrap-set-mousse-207ml.jpg?v=1729100000" },
   
   // EFO & Shea Moisture & Afri Pure
-  { id: 281, name: "EFO – Organics Shampoo & Conditioner", brand: "EFO Organics", price: 170.00, category: "Combo", image: "https://www.efoorganics.com/cdn/shop/files/organics-shampoo-conditioner-set.jpg?v=1729100000" },
+  { id: 281, name: "EFO – Organics Shampoo & Conditioner", brand: "EFO Organics", price: 170.00, category: "Combo", image: "https://www.shoprite.co.za/medias/10245969EA-checkers515Wx515H?context=bWFzdGVyfGltYWdlc3wxMDAwOTN8aW1hZ2UvcG5nfGltYWdlcy9oOTQvaGFmLzEwMDcxNTk3OTA3OTk4LnBuZ3xkYjI1ZjM4OGJiZmRlMzcxYWNmNzljZTIzNGMyMGY4YjFlMmY4MDQwOThmYjRiNWRiNDU1YzA0MDhkMWNkOTBm" },
   { id: 282, name: "Shea Moisture – Conditioner", brand: "Shea Moisture", price: 175.00, category: "Conditioner", image: "https://www.sheamoisture.com/cdn/shop/files/raw-shea-conditioner.jpg?v=1729100000" },
   { id: 283, name: "Shea Moisture – Shampoo", brand: "Shea Moisture", price: 175.00, category: "Shampoo", image: "https://www.sheamoisture.com/cdn/shop/files/raw-shea-shampoo.jpg?v=1729100000" },
   { id: 284, name: "Shea Moisture Products Set Assorted", brand: "Shea Moisture", price: 120.00, category: "Combo", image: "https://www.sheamoisture.com/cdn/shop/files/assorted-products-set.jpg?v=1729100000" },
