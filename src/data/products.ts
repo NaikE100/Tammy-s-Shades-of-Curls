@@ -289,10 +289,7 @@ export const products: Product[] = [
   { id: 195, name: "Takealot – Hot Comb – Electric Straightening Hot", brand: "Takealot", price: 180.00, category: "Tools", image: "https://www.takealot.com/images/product/large/electric-hot-comb-straightening.jpg?v=1729100000" },
   { id: 196, name: "Takealot – Professional Hair Dryer 2200w Hair Dryer", brand: "Takealot", price: 285.00, category: "Tools", image: "https://www.takealot.com/images/product/large/professional-hair-dryer-2200w.jpg?v=1729100000" },
   
-  // Argan Oil & Revlon
-  { id: 197, name: "Argan Oil Coconut Oil + Argan Shampoo", brand: "Argan Oil", price: 50.00, category: "Shampoo", image: "https://www.makro.co.za/cdn/shop/files/argan-coconut-shampoo.jpg?v=1729100000" },
-  { id: 198, name: "Argan Oil Moroccan Intensive Care Shampoo", brand: "Argan Oil", price: 50.00, category: "Shampoo", image: "https://www.makro.co.za/cdn/shop/files/moroccan-argan-intensive-shampoo.jpg?v=1729100000" },
-  { id: 199, name: "Argan Shampoo & Conditioner 1l Set", brand: "Argan Oil", price: 50.00, category: "Combo", image: "https://www.makro.co.za/cdn/shop/files/argan-shampoo-conditioner-set-1l.jpg?v=1729100000" },
+  // Revlon
   { id: 200, name: "Revlon Black Seed Oil Strength Conditioner", brand: "Revlon", price: 50.00, category: "Conditioner", image: "https://www.revlon.com/cdn/shop/files/black-seed-strength-conditioner.jpg?v=1729100000" },
   { id: 201, name: "Revlon Real Black Seed Curl Custard 300ml", brand: "Revlon", price: 50.00, category: "Styling", image: "https://www.revlon.com/cdn/shop/files/real-black-seed-curl-custard-300ml.jpg?v=1729100000" },
   { id: 202, name: "Revlon Real Black Seed Twist Pudding 300ml", brand: "Revlon", price: 50.00, category: "Styling", image: "https://www.revlon.com/cdn/shop/files/real-black-seed-twist-pudding-300ml.jpg?v=1729100000" },
