@@ -280,8 +280,8 @@ export const products: Product[] = [
   { id: 188, name: "The Perfect Hair – Growth Oil 200ml", brand: "The Perfect Hair", price: 60.00, category: "Oil", image: "https://theperfecthair.co.za/cdn/shop/files/growth-oil-200ml.jpg?v=1729100000" },
   
   // Cherry & Takealot
-  { id: 189, name: "Cherry Hair Perm Rods 12's Large", brand: "Cherry", price: 45.00, category: "Tools", image: "https://www.cherryplastics.co.za/cdn/shop/files/perm-rods-large-12s.jpg?v=1729100000" },
-  { id: 190, name: "Cheery Hair Perm Rods 12's Medium", brand: "Cherry", price: 45.00, category: "Tools", image: "https://www.cherryplastics.co.za/cdn/shop/files/perm-rods-medium-12s.jpg?v=1729100000" },
+  { id: 189, name: "Cherry Hair Perm Rods 12's Large", brand: "Cherry", price: 40.00, category: "Tools", image: "https://www.cosmeticconnection.co.za/cdn/shop/files/belleza-belleza-hair-perm-rods-12-s-small-6920254690052-2774-33327460384918_632cfa5f-8847-4cf6-8110-3941a0f08c57.jpg?v=1700654877" },
+  { id: 190, name: "Cherry Hair Perm Rods 12's Medium", brand: "Cherry", price: 40.00, category: "Tools", image: "https://www.cosmeticconnection.co.za/cdn/shop/products/cherry-plastics-hair-perm-rods-12-s-medium-6004311004607-15390-33327438987414.jpg?v=1698933318" },
   { id: 191, name: "Takealot – Hair Clipper USB Charger Electric Hair Trimmer Men", brand: "Takealot", price: 265.00, category: "Tools", image: "https://www.takealot.com/images/product/large/hair-clipper-usb-trimmer.jpg?v=1729100000" },
   { id: 192, name: "Straightening Hot Hair Brush", brand: "Generic", price: 200.00, category: "Tools", image: "https://www.takealot.com/images/product/large/straightening-hot-hair-brush.jpg?v=1729100000" },
   { id: 193, name: "Takealot – Sleep Cap, Hair Bonnet", brand: "Takealot", price: 65.00, category: "Accessories", image: "https://www.takealot.com/images/product/large/satin-sleep-cap-bonnet.jpg?v=1729100000" },
