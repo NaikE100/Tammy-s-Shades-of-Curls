@@ -230,12 +230,12 @@ export const products: Product[] = [
   { id: 146, name: "Native Child – Adult Happy Hair Hydrating Mist 100ml", brand: "Native Child", price: 115.00, category: "Styling", image: "https://nativechild.co.za/cdn/shop/files/adult-happy-hair-mist-100ml.jpg?v=1729100000" },
   
   // Mr Price
-  { id: 147, name: "Mr Price – Alice Band", brand: "Mr Price", price: 25.00, category: "Accessories", image: "https://www.mrprice.com/cdn/shop/files/alice-band.jpg?v=1729100000" },
-  { id: 148, name: "Mr price – 3 Pack Hair Clips Multi", brand: "Mr Price", price: 25.00, category: "Accessories", image: "https://www.mrprice.com/cdn/shop/files/3-pack-hair-clips-multi.jpg?v=1729100000" },
-  { id: 149, name: "Mr Price – Green Alice Band Teal", brand: "Mr Price", price: 25.00, category: "Accessories", image: "https://www.mrprice.com/cdn/shop/files/green-alice-band-teal.jpg?v=1729100000" },
-  { id: 150, name: "Mr Price – Hair Clips (Purple, Cream Nude)", brand: "Mr Price", price: 25.00, category: "Accessories", image: "https://www.mrprice.com/cdn/shop/files/hair-clips-purple-cream-nude.jpg?v=1729100000" },
-  { id: 151, name: "Mr Price – Hair Clips (Silver, Gold Butterfly)", brand: "Mr Price", price: 25.00, category: "Accessories", image: "https://www.mrprice.com/cdn/shop/files/hair-clips-silver-gold-butterfly.jpg?v=1729100000" },
-  { id: 152, name: "Mr Price – Hair Clips (Yellow Big, Yellow Small)", brand: "Mr Price", price: 25.00, category: "Accessories", image: "https://www.mrprice.com/cdn/shop/files/hair-clips-yellow-big-small.jpg?v=1729100000" },
+  { id: 147, name: "Mr Price – Alice Band", brand: "Mr Price", price: 55.00, category: "Accessories", image: "https://cdn.media.amplience.net/i/mrpricegroup/01_1723716295_SI_00" },
+  { id: 148, name: "Mr price – 3 Pack Hair Clips Multi", brand: "Mr Price", price: 35.00, category: "Accessories", image: "https://cdn.media.amplience.net/i/mrpricegroup/01_103888866_SI_11?$preset$&w=320" },
+  { id: 149, name: "Mr Price – Green Alice Band Teal", brand: "Mr Price", price: 40.00, category: "Accessories", image: "https://media.takealot.com/covers_images/3de6fd0b6e974e59aa586856efb3c7ac/s-pdpxl.file" },
+  { id: 150, name: "Mr Price – Hair Clips (Purple, Cream Nude)", brand: "Mr Price", price: 25.00, category: "Accessories", image: "https://m.media-amazon.com/images/I/61JQQ+gqyyS._AC_SL1500_.jpg" },
+  { id: 151, name: "Mr Price – Hair Clips (Silver, Gold Butterfly)", brand: "Mr Price", price: 30.00, category: "Accessories", image: "https://cdn.media.amplience.net/i/mrpricegroup/01_101386851_SI_00" },
+  { id: 152, name: "Mr Price – Hair Clips (Yellow Big, Yellow Small)", brand: "Mr Price", price: 25.00, category: "Accessories", image: "https://i.etsystatic.com/14977072/r/il/4872f9/5804261655/il_794xN.5804261655_dia2.jpg?odnHeight=640&odnWidth=640&odnBg=FFFFFF" },
   
   // Flexi Rods & Curl Chemistry
   { id: 153, name: "Flexi Rods", brand: "Generic", price: 50.00, category: "Tools", image: "https://www.flexirods.co.za/cdn/shop/files/flexi-rods.jpg?v=1729100000" },
