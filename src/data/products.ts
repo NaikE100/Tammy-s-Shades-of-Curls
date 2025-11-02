@@ -473,11 +473,11 @@ export const products: Product[] = [
   { id: 352, name: "The Mane Choice – Do It FRO The Culture Twist & Set Butter", brand: "The Mane Choice", price: 60.00, category: "Styling", image: "https://www.kiyobeauty.com/cdn/shop/files/the-mane-choice-do-it-fro-bold-buttery-gel.jpg?v=1729100000" },
   
   // Eco Gel & Skala
-  { id: 353, name: "Eco Gel – Argan Oil Styling Gel", brand: "Eco Gel", price: 65.00, category: "Gel", image: "https://ecostyle.com/cdn/shop/files/eco-argan-oil-styling-gel.jpg?v=1729100000" },
-  { id: 354, name: "Eco Gel – Black Castor & Flaxseed Oil Gel", brand: "Eco Gel", price: 30.00, category: "Gel", image: "https://www.amazon.com/cdn/shop/files/eco-black-castor-flaxseed-gel.jpg?v=1729100000" },
-  { id: 355, name: "Eco Gel – Eco Gel Olive Oil", brand: "Eco Gel", price: 60.00, category: "Gel", image: "https://www.amazon.com/cdn/shop/files/eco-olive-oil-styling-gel.jpg?v=1729100000" },
-  { id: 356, name: "Eco Gel – Eco Gel Sport", brand: "Eco Gel", price: 60.00, category: "Gel", image: "https://ecostyle.com/cdn/shop/files/eco-blue-sport-gel.jpg?v=1729100000" },
-  { id: 357, name: "Eco Gel – Eco Styler Gel Super Protein", brand: "Eco Gel", price: 170.00, category: "Gel", image: "https://ecostyle.com/cdn/shop/files/eco-super-protein-gel.jpg?v=1729100000" },
+  { id: 353, name: "Eco Style Gel 236ml – Krystal", brand: "Eco Gel", price: 65.00, category: "Gel", image: "https://www.shoprite.co.za/medias/checkers515Wx515H-10649327EA.png?context=bWFzdGVyfGltYWdlc3wyNjkwNTd8aW1hZ2UvcG5nfGltYWdlcy9oMjIvaGZlLzExNDAyNzkzNDg0MzE4LnBuZ3w5YTQ0ZWZmMjZkYTc1NjNhOWY3NmMyMGRkZWVmMTg3NjdiM2FhM2E3NjRiMDJiNmE1ZTQyYjA3ODJmNTk3YmFi" },
+  { id: 354, name: "Eco Style Gel 236ml Argan Oil", brand: "Eco Gel", price: 30.00, category: "Gel", image: "https://m.media-amazon.com/images/I/7105KPSGbZL.jpg" },
+  { id: 355, name: "Eco Style Gel 236ml Olive Oil", brand: "Eco Gel", price: 60.00, category: "Gel", image: "https://m.media-amazon.com/images/I/41EOQbkCuXL._SY580_.jpg" },
+  { id: 356, name: "Eco Style Gel Argan & Olive Oil 473ml", brand: "Eco Gel", price: 60.00, category: "Gel", image: "https://cdn.mafrservices.com/sys-master-root/h3e/hcd/45231192768542/102309_main.jpg?im=Resize=1700" },
+  { id: 357, name: "Eco Gel 946ml", brand: "Eco Gel", price: 170.00, category: "Gel", image: "https://cdn.myshoptet.com/usr/www.kanekalon-store.cz/user/shop/big/26045_32oz-eco-style-olive-oil-styling-gel-max-hold-946ml-1b4944fda6a44ea56f2e28a52de69c78.jpg?6448e91c" },
   { id: 358, name: "Skala – Ceramidas Treatment Cream", brand: "Skala", price: 120.00, category: "Treatment", image: "https://skalabrasil.com/cdn/shop/files/skala-ceramidas-treatment-cream.jpg?v=1729100000" },
   { id: 359, name: "Skala – Divino Potão Treatment Cream", brand: "Skala", price: 50.00, category: "Treatment", image: "https://skalabrasil.com/cdn/shop/files/skala-divino-potao-treatment-cream.jpg?v=1729100000" },
   { id: 360, name: "Skala – Expert Curls Treatment Cream", brand: "Skala", price: 80.00, category: "Treatment", image: "https://skalastore.com/cdn/shop/files/skala-expert-curls-treatment-cream.jpg?v=1729100000" },
