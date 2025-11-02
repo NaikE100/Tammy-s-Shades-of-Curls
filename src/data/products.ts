@@ -239,8 +239,8 @@ export const products: Product[] = [
   
   // Flexi Rods & Curl Chemistry
   { id: 153, name: "Flexi Rods", brand: "Generic", price: 50.00, category: "Tools", image: "https://www.flexirods.co.za/cdn/shop/files/flexi-rods.jpg?v=1729100000" },
-  { id: 154, name: "Curl Chemistry – Papaya Combo", brand: "Curl Chemistry", price: 200.00, category: "Combo", image: "https://curlchemistry.co.za/cdn/shop/files/papaya-combo.jpg?v=1729100000" },
-  { id: 155, name: "Curl Chemistry – Pomegranate Triple", brand: "Curl Chemistry", price: 200.00, category: "Combo", image: "https://curlchemistry.co.za/cdn/shop/files/pomegranate-triple.jpg?v=1729100000" },
+  { id: 154, name: "Curl Chemistry – Papaya Combo", brand: "Curl Chemistry", price: 290.00, category: "Combo", image: "https://www.curlchemistry.co.za/wp-content/uploads/2020/04/takealot6.jpg" },
+  { id: 155, name: "Curl Chemistry – Pomegranate Triple", brand: "Curl Chemistry", price: 290.00, category: "Combo", image: "https://splendit.co.za/wp-content/uploads/2022/03/Combo-Deal-500x500-1.jpg" },
   { id: 156, name: "Sarah Cholesterol Treatment 1l", brand: "Sarah", price: 60.00, category: "Treatment", image: "https://www.blackvelvet.co.za/cdn/shop/files/sarah-cholesterol-1l.jpg?v=1729100000" },
   
   // Cantu
