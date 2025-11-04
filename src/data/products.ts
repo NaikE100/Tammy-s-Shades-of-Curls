@@ -241,7 +241,7 @@ export const products: Product[] = [
   { id: 153, name: "Flexi Rods", brand: "Generic", price: 50.00, category: "Tools", image: "https://www.flexirods.co.za/cdn/shop/files/flexi-rods.jpg?v=1729100000" },
   { id: 154, name: "Curl Chemistry – Papaya Combo", brand: "Curl Chemistry", price: 290.00, category: "Combo", image: "https://www.curlchemistry.co.za/wp-content/uploads/2020/04/takealot6.jpg" },
   { id: 155, name: "Curl Chemistry – Pomegranate Triple", brand: "Curl Chemistry", price: 290.00, category: "Combo", image: "https://splendit.co.za/wp-content/uploads/2022/03/Combo-Deal-500x500-1.jpg" },
-  { id: 156, name: "Sarah Cholesterol Treatment 1l", brand: "Sarah", price: 60.00, category: "Treatment", image: "https://www.blackvelvet.co.za/cdn/shop/files/sarah-cholesterol-1l.jpg?v=1729100000" },
+  { id: 156, name: "Sarah Cholesterol Treatment 1l", brand: "Black Velvet", price: 70.00, category: "Treatment", image: "https://www.cosmeticconnection.co.za/cdn/shop/products/black-velvet-sarah-cholestrol-treatment-1l-33327215771798.jpg?v=1655457129" },
   
   // Cantu
   { id: 157, name: "Cantu – Wave Whip Curling", brand: "Cantu", price: 50.00, category: "Styling", image: "https://media.takealot.com/covers_images/2ff5b3df7caa42dab71fc9dbcf069bac/s-pdpxl.file" },
