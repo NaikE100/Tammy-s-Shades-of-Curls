@@ -376,11 +376,11 @@ export const products: Product[] = [
   { id: 275, name: "Palmer's – Olive Oil Shine Therapy Shampoo 400ml", brand: "Palmer's", price: 95.00, category: "Shampoo", image: "https://www.palmers.com/cdn/shop/files/olive-shine-shampoo-400ml.jpg?v=1729100000" },
   
   // ORS
-  { id: 276, name: "ORS – Argan Oil Fortifying Hail Oil", brand: "ORS", price: 50.00, category: "Oil", image: "https://www.orshaircare.com/cdn/shop/files/argan-fortifying-hair-oil.jpg?v=1729100000" },
-  { id: 277, name: "ORS – Black Castor Hair Oil 100ml", brand: "ORS", price: 60.00, category: "Oil", image: "https://www.orshaircare.com/cdn/shop/files/black-castor-hair-oil-100ml.jpg?v=1729100000" },
-  { id: 278, name: "ORS – Fortifying Hair Food 125ml", brand: "ORS", price: 50.00, category: "Treatment", image: "https://www.orshaircare.com/cdn/shop/files/fortifying-hair-food-125ml.jpg?v=1729100000" },
-  { id: 279, name: "ORS – Mousse Coconut Olive 227ml", brand: "ORS", price: 70.00, category: "Styling", image: "https://www.orshaircare.com/cdn/shop/files/coconut-olive-mousse-227ml.jpg?v=1729100000" },
-  { id: 280, name: "ORS – Wrap/set Mousse 207ml", brand: "ORS", price: 65.00, category: "Styling", image: "https://www.orshaircare.com/cdn/shop/files/wrap-set-mousse-207ml.jpg?v=1729100000" },
+  { id: 276, name: "ORS – Argan Oil Fortifying Hail Oil", brand: "ORS", price: 50.00, category: "Oil", image: "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDMyNTk1fGltYWdlL2pwZWd8Y0hKdlpIVmpkQzFwYldGblpYTXZhRE13TDJnd09TODRPRFl5TlRFM05Ea3pOemt3TG1wd1p3fDRmNmY1ZDg1MzE1NDhmZGM3ZWRiM2Y5M2I4NWQyZTc1NWY1M2RkM2Q2ZDAzOTlmYzdkZjA3NjVlYzAyODI2ZWY" },
+  { id: 277, name: "ORS – Black Castor Hair Oil 100ml", brand: "ORS", price: 60.00, category: "Oil", image: "https://cdn-prd-02.pnp.co.za/sys-master/images/hf4/h49/11119823290398/silo-product-image-v2-16Mar2023-172744-6009880213238-Angle_A-86757-641_400Wx400H" },
+  { id: 278, name: "ORS – Fortifying Hair Food 125ml", brand: "ORS", price: 50.00, category: "Treatment", image: "https://www.shoprite.co.za/medias/10634713EA-checkers515Wx515H?context=bWFzdGVyfGltYWdlc3wzMjUwMDJ8aW1hZ2UvcG5nfGltYWdlcy9oMDQvaDg4Lzg5OTIxNTYxNTU5MzQucG5nfGRkZjJjOWU3YTBmZWMyMjBiZDU5NTkzNmQ4YmIyYjY2NDczZGI5Y2Q0ZGJkMDg5ZTIxOTYzYmZjZTg0NjFlNTE" },
+  { id: 279, name: "ORS – Mousse Coconut Olive 227ml", brand: "ORS", price: 70.00, category: "Styling", image: "https://m.media-amazon.com/images/I/51ybmzZYIZL.jpg" },
+  { id: 280, name: "ORS – Wrap/set Mousse 207ml", brand: "ORS", price: 65.00, category: "Styling", image: "https://www.dischem.co.za/api/catalog/product/6/0/6009711291343_ae67a4c23d49f2cbddb1f3f9abe41111.jpg?store=default&image-type=image" },
   
   // EFO & Shea Moisture & Afri Pure
   { id: 281, name: "EFO – Organics Shampoo & Conditioner", brand: "EFO Organics", price: 170.00, category: "Combo", image: "https://www.shoprite.co.za/medias/10245969EA-checkers515Wx515H?context=bWFzdGVyfGltYWdlc3wxMDAwOTN8aW1hZ2UvcG5nfGltYWdlcy9oOTQvaGFmLzEwMDcxNTk3OTA3OTk4LnBuZ3xkYjI1ZjM4OGJiZmRlMzcxYWNmNzljZTIzNGMyMGY4YjFlMmY4MDQwOThmYjRiNWRiNDU1YzA0MDhkMWNkOTBm" },
