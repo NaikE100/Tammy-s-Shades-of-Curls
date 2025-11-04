@@ -207,10 +207,10 @@ export const products: Product[] = [
   { id: 123, name: "AO Argan Oil Shampoo 300ml", brand: "Argan Origins", price: 90.00, category: "Shampoo", image: "https://cdn-prd-02.pnp.co.za/sys-master/images/hba/hbd/11122652577822/silo-product-image-v2-16Mar2023-182241-5060120167101-Straight_on-112880-5150_515Wx515H" },
   { id: 124, name: "AO Silver Shampoo Infused with Moroccan", brand: "Argan Origins", price: 50.00, category: "Shampoo", image: "https://www.houseofnappies.com.au/assets/full/AO16849.jpg?20220315143521" },
   
-  // Voucher
-  { id: 129, name: "Croc Hair Clips 3's", brand: "Generic", price: 15.00, category: "Accessories", image: "https://www.cosmeticconnection.co.za/cdn/shop/files/croc-hair-clips-3s.jpg?v=1729100000" },
-  { id: 130, name: "Voucher – Deep Treatment 50g – Hair Masque", brand: "Voucher", price: 15.00, category: "Mask", image: "https://www.cosmeticconnection.co.za/cdn/shop/files/voucher-deep-treatment-masque-50g.jpg?v=1729100000" },
-  { id: 131, name: "Voucher – Fortifying Hair oil 100ml – Argan Oil", brand: "Voucher", price: 15.00, category: "Oil", image: "https://www.cosmeticconnection.co.za/cdn/shop/files/voucher-fortifying-argan-oil-100ml.jpg?v=1729100000" },
+  // Cosmetic Connection
+  { id: 129, name: "Croc Hair Clips 3's", brand: "Cosmetic Connection", price: 37.00, category: "Accessories", image: "https://www.lookfantastic.com/images?url=https://static.thcdn.com/productimg/original/14300040-1775052981127830.jpg&format=webp&auto=avif" },
+  { id: 130, name: "Voucher – Deep Treatment 50g – Hair Masque", brand: "Cosmetic Connection", price: 44.90, category: "Mask", image: "https://d3e7ardzpaj3y4.cloudfront.net/image/catalog/product/1681207022_22599_70671339_817513016325-680x680.png" },
+  { id: 131, name: "Voucher – Fortifying Hair oil 100ml – Argan Oil", brand: "Cosmetic Connection", price: 31.90, category: "Oil", image: "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDMyNTk1fGltYWdlL2pwZWd8Y0hKdlpIVmpkQzFwYldGblpYTXZhRE13TDJnd09TODRPRFl5TlRFM05Ea3pOemt3TG1wd1p3fDRmNmY1ZDg1MzE1NDhmZGM3ZWRiM2Y5M2I4NWQyZTc1NWY1M2RkM2Q2ZDAzOTlmYzdkZjA3NjVlYzAyODI2ZWY" },
   
   // Native Child
   { id: 132, name: "Native Child (Kids Starter Combo)", brand: "Native Child", price: 260.00, category: "Combo", image: "https://king-online.co.za/files/001120/gallery/00/00/99/00009943_00007552.jpg" },
@@ -282,12 +282,12 @@ export const products: Product[] = [
   // Cherry & Takealot
   { id: 189, name: "Cherry Hair Perm Rods 12's Large", brand: "Cherry", price: 40.00, category: "Tools", image: "https://www.cosmeticconnection.co.za/cdn/shop/files/belleza-belleza-hair-perm-rods-12-s-small-6920254690052-2774-33327460384918_632cfa5f-8847-4cf6-8110-3941a0f08c57.jpg?v=1700654877" },
   { id: 190, name: "Cherry Hair Perm Rods 12's Medium", brand: "Cherry", price: 40.00, category: "Tools", image: "https://www.cosmeticconnection.co.za/cdn/shop/products/cherry-plastics-hair-perm-rods-12-s-medium-6004311004607-15390-33327438987414.jpg?v=1698933318" },
-  { id: 191, name: "Takealot – Hair Clipper USB Charger Electric Hair Trimmer Men", brand: "Takealot", price: 265.00, category: "Tools", image: "https://www.takealot.com/images/product/large/hair-clipper-usb-trimmer.jpg?v=1729100000" },
-  { id: 192, name: "Straightening Hot Hair Brush", brand: "Generic", price: 200.00, category: "Tools", image: "https://www.takealot.com/images/product/large/straightening-hot-hair-brush.jpg?v=1729100000" },
-  { id: 193, name: "Takealot – Sleep Cap, Hair Bonnet", brand: "Takealot", price: 65.00, category: "Accessories", image: "https://www.takealot.com/images/product/large/satin-sleep-cap-bonnet.jpg?v=1729100000" },
-  { id: 194, name: "Takealot – Hair Steamer Cap Beauty Steamer", brand: "Takealot", price: 90.00, category: "Tools", image: "https://www.takealot.com/images/product/large/hair-steamer-cap.jpg?v=1729100000" },
-  { id: 195, name: "Takealot – Hot Comb – Electric Straightening Hot", brand: "Takealot", price: 180.00, category: "Tools", image: "https://www.takealot.com/images/product/large/electric-hot-comb-straightening.jpg?v=1729100000" },
-  { id: 196, name: "Takealot – Professional Hair Dryer 2200w Hair Dryer", brand: "Takealot", price: 285.00, category: "Tools", image: "https://www.takealot.com/images/product/large/professional-hair-dryer-2200w.jpg?v=1729100000" },
+  { id: 191, name: "Hair Clipper USB Charger Electric Hair Trimmer Men", brand: "Takealot", price: 130.00, category: "Tools", image: "https://media.takealot.com/covers_images/63b91c4106dd4334a8707272e1cbeb23/s-zoom.file" },
+  { id: 192, name: "Straightening Hot Hair Brush", brand: "Takealot", price: 300.00, category: "Tools", image: "https://media.takealot.com/covers_tsins/55482697/55482697-1-zoom.jpeg" },
+  { id: 193, name: "Takealot – Sleep Cap, Hair Bonnet", brand: "Takealot", price: 30.00, category: "Accessories", image: "https://img.ltwebstatic.com/images3_spmp/2024/12/30/a5/173553824571af22cece99c5802289a277238fd011_thumbnail_405x.webp" },
+  { id: 194, name: "Takealot – Hair Steamer Cap Beauty Steamer", brand: "Takealot", price: 250.00, category: "Tools", image: "https://media.takealot.com/covers_images/793bd72767434d3a96477c7c47de7a35/s-zoom.file" },
+  { id: 195, name: "Takealot – Hot Comb – Electric Straightening Hot", brand: "Takealot", price: 220.00, category: "Tools", image: "https://media.takealot.com/covers_images/6b8cda017d0340b4a03ca11d34bc70c1/s-xlpreview.file" },
+  { id: 196, name: "Takealot – Professional Hair Dryer 2200w Hair Dryer", brand: "Takealot", price: 350.00, category: "Tools", image: "https://media.takealot.com/covers_images/25bd66bfdb26403aab50a756bf4c9994/s-zoom.file" },
   
   // Revlon
   { id: 200, name: "Revlon Black Seed Oil Strength Conditioner", brand: "Revlon", price: 50.00, category: "Conditioner", image: "https://m.media-amazon.com/images/I/71oocFfoUzL._UF1000,1000_QL80_.jpg" },
@@ -300,7 +300,7 @@ export const products: Product[] = [
   { id: 205, name: "Bonnet Queens Satin Bonnet Mommy & Me", brand: "Bonnet Queens", price: 80.00, category: "Accessories", image: "https://bonnetqueens.co.za/cdn/shop/files/mommy-me-satin-bonnet.jpg?v=1729100000" },
   { id: 206, name: "Bonnet Queens Adult Satin Bonnet", brand: "Bonnet Queens", price: 80.00, category: "Accessories", image: "https://bonnetqueens.co.za/cdn/shop/files/adult-satin-bonnet.jpg?v=1729100000" },
   { id: 207, name: "Bonnet Queens Satin Bonnet Kids", brand: "Bonnet Queens", price: 50.00, category: "Accessories", image: "https://bonnetqueens.co.za/cdn/shop/files/kids-satin-bonnet.jpg?v=1729100000" },
-  { id: 208, name: "Wax Hair Coloring", brand: "Wax", price: 85.00, category: "Hair Color", image: "https://www.waxhair.com/cdn/shop/files/wax-hair-coloring-kit.jpg?v=1729100000" },
+  { id: 208, name: "Wax Hair Coloring", brand: "Wax", price: 85.00, category: "Hair Color", image: "https://ptpabreeze.blob.core.windows.net/product/97dccfec-a28a-4ad3-8423-73e68f8f5690.jpg" },
   { id: 209, name: "Soft Hood Hair Dryer Attachment Black", brand: "Splendid", price: 100.00, category: "Tools", image: "https://splendit.co.za/wp-content/uploads/2022/06/Hair-Perm-Portable-Soft-Hair-Drying-Cap-Bonnet-Hood-Hat-Blow-Dryer-Attachment-Dry-Hair-Cream.jpg_Q90-scaled.jpg" },
   { id: 210, name: "Afro Comb", brand: "Splendid", price: 10.00, category: "Tools", image: "https://m.media-amazon.com/images/I/413mSrGC+OL._SY580_.jpg" },
   { id: 211, name: "Continuous Mist Spray Bottle 300ml", brand: "Splendid", price: 100.00, category: "Tools", image: "https://splendit.co.za/wp-content/uploads/2022/01/mist-spray-bottle-280x280.jpg" },
@@ -468,9 +468,9 @@ export const products: Product[] = [
   { id: 347, name: "Soft n Free Fortifying Shampoo 340ml", brand: "Soft n Free", price: 70.00, category: "Shampoo", image: "https://splendit.co.za/wp-content/uploads/2022/04/Cannabis-Baobab-Shampoo_10-09-2021_RGB-2.jpg.webp" },
   { id: 348, name: "Soft n Free Leave-In Conditioner with Manuka", brand: "Soft n Free", price: 80.00, category: "Conditioner", image: "https://splendit.co.za/wp-content/uploads/2022/04/Stills-ManukaHoney016_DETHEMILLcopy_2048x.jpg" },
   { id: 349, name: "Soft n Free Coconut & Jamaican Black Castor Oil", brand: "Soft n Free", price: 90.00, category: "Oil", image: "https://www.tjbeautyproducts.co.uk/cdn/shop/files/COCONUTCURLCREAM_grande.webp?v=1717515495" },
-  { id: 350, name: "The Mane Choice – 3-in-1 Revitalize & Refresh Conditioner", brand: "The Mane Choice", price: 60.00, category: "Conditioner", image: "https://themanechoice.com/cdn/shop/files/the-mane-choice-alpha-revitalize-refresh-3-in-1.jpg?v=1729100000" },
-  { id: 351, name: "The Mane Choice – Crystal Orchid Biotin Infused Styling Gel", brand: "The Mane Choice", price: 60.00, category: "Gel", image: "https://themanechoice.com/cdn/shop/files/the-mane-choice-crystal-orchid-styling-gel.jpg?v=1729100000" },
-  { id: 352, name: "The Mane Choice – Do It FRO The Culture Twist & Set Butter", brand: "The Mane Choice", price: 60.00, category: "Styling", image: "https://www.kiyobeauty.com/cdn/shop/files/the-mane-choice-do-it-fro-bold-buttery-gel.jpg?v=1729100000" },
+  { id: 350, name: "The Mane Choice – Laid Back Effortlessly Hair", brand: "The Mane Choice", price: 60.00, category: "Styling", image: "https://m.media-amazon.com/images/I/71s85bspGgL._UF894,1000_QL80_.jpg" },
+  { id: 351, name: "The Mane Choice – The Alpha, Biotin Infused", brand: "The Mane Choice", price: 60.00, category: "Gel", image: "https://themanechoice.com/cdn/shop/products/Alpha_OrchidGel_1800x1800.jpg?v=1636971254" },
+  { id: 352, name: "The Mane Choice – The Alpha, Growth Oil 4fl oz", brand: "The Mane Choice", price: 60.00, category: "Oil", image: "https://themanechoice.com/cdn/shop/files/TMC_TheAlphaGrowthOil_PDP_1-1_PackShot_Front_Shadow_1800x1800.jpg?v=1737413425" },
   
   // Eco Gel & Skala
   { id: 353, name: "Eco Style Gel 236ml – Krystal", brand: "Eco Gel", price: 65.00, category: "Gel", image: "https://www.shoprite.co.za/medias/checkers515Wx515H-10649327EA.png?context=bWFzdGVyfGltYWdlc3wyNjkwNTd8aW1hZ2UvcG5nfGltYWdlcy9oMjIvaGZlLzExNDAyNzkzNDg0MzE4LnBuZ3w5YTQ0ZWZmMjZkYTc1NjNhOWY3NmMyMGRkZWVmMTg3NjdiM2FhM2E3NjRiMDJiNmE1ZTQyYjA3ODJmNTk3YmFi" },
