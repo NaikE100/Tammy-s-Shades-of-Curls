@@ -478,10 +478,10 @@ export const products: Product[] = [
   { id: 355, name: "Eco Style Gel 236ml Olive Oil", brand: "Eco Gel", price: 60.00, category: "Gel", image: "https://m.media-amazon.com/images/I/41EOQbkCuXL._SY580_.jpg" },
   { id: 356, name: "Eco Style Gel Argan & Olive Oil 473ml", brand: "Eco Gel", price: 60.00, category: "Gel", image: "https://cdn.mafrservices.com/sys-master-root/h3e/hcd/45231192768542/102309_main.jpg?im=Resize=1700" },
   { id: 357, name: "Eco Gel 946ml", brand: "Eco Gel", price: 170.00, category: "Gel", image: "https://cdn.myshoptet.com/usr/www.kanekalon-store.cz/user/shop/big/26045_32oz-eco-style-olive-oil-styling-gel-max-hold-946ml-1b4944fda6a44ea56f2e28a52de69c78.jpg?6448e91c" },
-  { id: 358, name: "Skala – Ceramidas Treatment Cream", brand: "Skala", price: 120.00, category: "Treatment", image: "https://skalabrasil.com/cdn/shop/files/skala-ceramidas-treatment-cream.jpg?v=1729100000" },
-  { id: 359, name: "Skala – Divino Potão Treatment Cream", brand: "Skala", price: 50.00, category: "Treatment", image: "https://skalabrasil.com/cdn/shop/files/skala-divino-potao-treatment-cream.jpg?v=1729100000" },
-  { id: 360, name: "Skala – Expert Curls Treatment Cream", brand: "Skala", price: 80.00, category: "Treatment", image: "https://skalastore.com/cdn/shop/files/skala-expert-curls-treatment-cream.jpg?v=1729100000" },
-  { id: 361, name: "Skala – Tutano Treatment Cream", brand: "Skala", price: 125.00, category: "Treatment", image: "https://skalabrasil.com/cdn/shop/files/skala-mais-crespos-treatment-cream.jpg?v=1729100000" },
+  { id: 358, name: "Skala Assorted 1000ml Pots", brand: "Skala", price: 120.00, category: "Combo", image: "https://splendit.co.za/wp-content/uploads/2021/10/divino-kids.jpg" },
+  { id: 359, name: "Skala Leave-In Conditioner 250g", brand: "Skala", price: 50.00, category: "Conditioner", image: "https://splendit.co.za/wp-content/uploads/2022/05/o735.jpg.webp" },
+  { id: 360, name: "Skala Liquid Gel 250g Perfect Curl", brand: "Skala", price: 80.00, category: "Gel", image: "https://splendit.co.za/wp-content/uploads/2022/05/stylinggel.jpg.webp" },
+  { id: 361, name: "Skala Shampoo & Conditioner Set", brand: "Skala", price: 125.00, category: "Combo", image: "https://curlygirlsiq.com/wp-content/uploads/products/skala/img_3054.jpg" },
 ];
 
 export const categories = [
