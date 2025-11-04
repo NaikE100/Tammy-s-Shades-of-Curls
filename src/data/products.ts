@@ -407,7 +407,7 @@ export const products: Product[] = [
   
   // Mrs J Accessories & Aunt Jackie's
   { id: 302, name: "3-in-1 Hair Dryer, Volumizer & Styler", brand: "Mrs J Accessories", price: 190.00, category: "Tools", image: "https://media.takealot.com/covers_tsins/69555899/69555899-1-zoom.png" },
-  { id: 303, name: "Hair Pins – Jolene Atlantis", brand: "Mrs J Accessories", price: 30.00, category: "Accessories", image: "/src/assets/jolne_atlantis_hair_pins.jpg" },
+  { id: 303, name: "Hair Pins – Jolene Atlantis", brand: "Mrs J Accessories", price: 30.00, category: "Accessories", image: "/jolne_atlantis_hair_pins.jpg" },
   { id: 304, name: "Shine N Jam Conditioning Gel Extra Hold 4 oz 227ml", brand: "Mrs J Accessories", price: 90.00, category: "Gel", image: "https://media.takealot.com/covers_images/adb4484e7cf44b8cabe54a16ee3ab7d9/s-zoom.file" },
   { id: 305, name: "Aunt Jackie's – Treatment Mixed 227g", brand: "Aunt Jackie's", price: 130.00, category: "Treatment", image: "https://www.tjbeautyproducts.co.uk/cdn/shop/files/magic-mend.webp?v=1717159269&width=1200" },
   { id: 306, name: "Aunt Jackie's – 1 Cool It 284g", brand: "Aunt Jackie's", price: 120.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2021/11/AJAMCoolIt_360x.jpg" },
