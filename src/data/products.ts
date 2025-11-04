@@ -367,7 +367,7 @@ export const products: Product[] = [
   { id: 266, name: "Palmer's – Cocoa Butter Formula Length Retention", brand: "Palmer's", price: 95.00, category: "Treatment", image: "https://bswbeautyca.com/cdn/shop/files/1_123c871b-d144-4978-92bd-07b280235bf9.jpg?v=1745262330" },
   { id: 267, name: "Palmer's – Cocoa Butter Length Retention", brand: "Palmer's", price: 95.00, category: "Treatment", image: "https://bswbeautyca.com/cdn/shop/files/1_123c871b-d144-4978-92bd-07b280235bf9.jpg?v=1745262330" },
   { id: 268, name: "Palmer's – Leave-In Conditioner Cocoa Butter", brand: "Palmer's", price: 90.00, category: "Conditioner", image: "https://m.media-amazon.com/images/I/61zYVWzedeL.jpg" },
-  { id: 269, name: "Palmer's ��� Coconut Oil Deep Conditioner 60g", brand: "Palmer's", price: 40.00, category: "Conditioner", image: "https://www.palmers.com/cdn/shop/files/coconut-deep-conditioner-60g.jpg?v=1729100000" },
+  { id: 269, name: "Palmer's ��� Coconut Oil Deep Conditioner 60g", brand: "Palmer's", price: 40.00, category: "Conditioner", image: "https://images-static.nykaa.com/media/catalog/product/6/0/60fd530NYPALMCO00005_1.jpg" },
   { id: 270, name: "Palmer's – Coconut Oil Leave-In Conditioner", brand: "Palmer's", price: 90.00, category: "Conditioner", image: "https://m.media-amazon.com/images/I/31R74k3ur6L._SY580_.jpg" },
   { id: 271, name: "Palmer's – Coconut Oil Repairing Conditioner", brand: "Palmer's", price: 90.00, category: "Conditioner", image: "https://uk.palmers.com/1280-thickbox_default/repairing-conditioner.jpg" },
   { id: 272, name: "Palmer's – Coconut Oil Shampoo 400ml", brand: "Palmer's", price: 80.00, category: "Shampoo", image: "https://in.palmers.com/3961-thickbox_default/moisture-boost-shampoo.jpg" },
