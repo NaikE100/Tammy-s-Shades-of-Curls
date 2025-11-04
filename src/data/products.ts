@@ -290,11 +290,11 @@ export const products: Product[] = [
   { id: 196, name: "Takealot – Professional Hair Dryer 2200w Hair Dryer", brand: "Takealot", price: 285.00, category: "Tools", image: "https://www.takealot.com/images/product/large/professional-hair-dryer-2200w.jpg?v=1729100000" },
   
   // Revlon
-  { id: 200, name: "Revlon Black Seed Oil Strength Conditioner", brand: "Revlon", price: 50.00, category: "Conditioner", image: "https://www.revlon.com/cdn/shop/files/black-seed-strength-conditioner.jpg?v=1729100000" },
-  { id: 201, name: "Revlon Real Black Seed Curl Custard 300ml", brand: "Revlon", price: 50.00, category: "Styling", image: "https://www.revlon.com/cdn/shop/files/real-black-seed-curl-custard-300ml.jpg?v=1729100000" },
-  { id: 202, name: "Revlon Real Black Seed Twist Pudding 300ml", brand: "Revlon", price: 50.00, category: "Styling", image: "https://www.revlon.com/cdn/shop/files/real-black-seed-twist-pudding-300ml.jpg?v=1729100000" },
-  { id: 203, name: "Revlon Realistic Blackseed Butter Cream", brand: "Revlon", price: 50.00, category: "Treatment", image: "https://www.revlon.com/cdn/shop/files/realistic-blackseed-butter-cream.jpg?v=1729100000" },
-  { id: 204, name: "Revlon Realistic Blackseed Curl Revive", brand: "Revlon", price: 50.00, category: "Styling", image: "https://www.revlon.com/cdn/shop/files/realistic-blackseed-curl-revive.jpg?v=1729100000" },
+  { id: 200, name: "Revlon Black Seed Oil Strength Conditioner", brand: "Revlon", price: 50.00, category: "Conditioner", image: "https://m.media-amazon.com/images/I/71oocFfoUzL._UF1000,1000_QL80_.jpg" },
+  { id: 201, name: "Revlon Real Black Seed Curl Custard 300ml", brand: "Revlon", price: 50.00, category: "Styling", image: "https://www.solopelos.com/1820840-large_default/revlon-real-black-seed-curl-custard-300-ml.jpg" },
+  { id: 202, name: "Revlon Real Black Seed Twist Pudding 300ml", brand: "Revlon", price: 50.00, category: "Styling", image: "https://www.best-before.co.za/wp-content/uploads/2023/05/616762940203.jpg" },
+  { id: 203, name: "Revlon Realistic Blackseed Butter Cream", brand: "Revlon", price: 50.00, category: "Treatment", image: "https://m.media-amazon.com/images/I/51ia3OyvGYL._SL1200_.jpg" },
+  { id: 204, name: "Revlon Realistic Blackseed Curl Revive 240ml", brand: "Revlon", price: 50.00, category: "Styling", image: "https://cdn11.bigcommerce.com/s-i4obcmlwea/images/stencil/590x590/products/6382/6299/RER107__58332.1579005580.jpg?c=1" },
   
   // Bonnet Queens & Wax & Splendid Tools
   { id: 205, name: "Bonnet Queens Satin Bonnet Mommy & Me", brand: "Bonnet Queens", price: 80.00, category: "Accessories", image: "https://bonnetqueens.co.za/cdn/shop/files/mommy-me-satin-bonnet.jpg?v=1729100000" },
