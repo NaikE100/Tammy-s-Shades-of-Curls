@@ -90,7 +90,7 @@ export const products: Product[] = [
   
   // Karseell
   { id: 42, name: "Collagen – Karseell Refill 500ml", brand: "Karseell", price: 200.00, category: "Treatment", image: "https://thelittlegift.co.za/wp-content/uploads/2024/11/WhatsApp-Image-2024-10-31-at-15.42.13.jpeg" },
-  { id: 43, name: "Karseell Maca Essence Hair Repair Collagen", brand: "Karseell", price: 350.00, category: "Treatment", image: "https://media.licdn.com/dms/image/v2/D5622AQFBHga3ar-YvQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1716539041721?e=2147483647&v=beta&t=OCAXXd3hAxUCA920_pFT2Km3toAnPgPj1oVaz7oCwSw" },
+  { id: 43, name: "Karseell Maca Essence Hair Repair Collagen", brand: "Karseell", price: 350.00, category: "Treatment", image: "https://media.licdn.com/dms/image/v2/D5622AQFBHga3ar-YvQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1716539041721?e=2147483647&v=beta&t=OCAXXd3hAxUCA920_pFT2Km3toAnPgPj1oVaz7oCwSwSw" },
   { id: 44, name: "Karseell BNC Argan Collagen Treatment Refill", brand: "Karseell", price: 200.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2024/03/karseel-bnc-argan-treat.jpg" },
   { id: 45, name: "Karseell BNC Argan Collagen Treatment Tub", brand: "Karseell", price: 250.00, category: "Treatment", image: "https://splendit.co.za/wp-content/uploads/2024/03/karseel-bnc-argan-treat-tub.jpg" },
   { id: 46, name: "Karseell BNC Argan Oil 60ml", brand: "Karseell", price: 120.00, category: "Oil", image: "https://www.marbleskinco.co.za/cdn/shop/files/karseel-bnc-argan-oil_jpg_grande.webp?v=1719830501" },
@@ -384,9 +384,9 @@ export const products: Product[] = [
   
   // EFO & Shea Moisture & Afri Pure
   { id: 281, name: "EFO – Organics Shampoo & Conditioner", brand: "EFO Organics", price: 170.00, category: "Combo", image: "https://www.shoprite.co.za/medias/10245969EA-checkers515Wx515H?context=bWFzdGVyfGltYWdlc3wxMDAwOTN8aW1hZ2UvcG5nfGltYWdlcy9oOTQvaGFmLzEwMDcxNTk3OTA3OTk4LnBuZ3xkYjI1ZjM4OGJiZmRlMzcxYWNmNzljZTIzNGMyMGY4YjFlMmY4MDQwOThmYjRiNWRiNDU1YzA0MDhkMWNkOTBm" },
-  { id: 282, name: "Shea Moisture – Conditioner", brand: "Shea Moisture", price: 175.00, category: "Conditioner", image: "https://www.sheamoisture.com/cdn/shop/files/raw-shea-conditioner.jpg?v=1729100000" },
-  { id: 283, name: "Shea Moisture – Shampoo", brand: "Shea Moisture", price: 175.00, category: "Shampoo", image: "https://www.sheamoisture.com/cdn/shop/files/raw-shea-shampoo.jpg?v=1729100000" },
-  { id: 284, name: "Shea Moisture Products Set Assorted", brand: "Shea Moisture", price: 120.00, category: "Combo", image: "https://www.sheamoisture.com/cdn/shop/files/assorted-products-set.jpg?v=1729100000" },
+  { id: 282, name: "Shea Moisture – Conditioner", brand: "Shea Moisture", price: 175.00, category: "Conditioner", image: "https://sheamoisture.com.au/cdn/shop/files/05.072RawSheaButterDeepMoisturisingConditioner.jpg?v=1739487760&width=1946" },
+  { id: 283, name: "Shea Moisture – Shampoo", brand: "Shea Moisture", price: 175.00, category: "Shampoo", image: "https://digital.loblaws.ca/PCX/21433462_EA/en/2/21433462_en_angle_250.png" },
+  { id: 284, name: "Shea Moisture Products Set Assorted", brand: "Shea Moisture", price: 120.00, category: "Combo", image: "https://ozhairandbeauty.nz/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fozhairandbeauty%2FZrQI4kaF0TcGIxAs_AUG2024_OZHairandBeautyAssets11.png%3Fauto%3Dformat%252Ccompress&w=3840&q=75" },
   { id: 285, name: "Afri Pure – Miracle Growth Oil 50ml", brand: "Afri Pure", price: 100.00, category: "Oil", image: "https://www.dischem.co.za/api/catalog/product/6/0/6009712250530_04129eee232b1be4f615514c2f57e4ba.jpg?store=default&image-type=image" },
   { id: 286, name: "Afri Pure – Aloe Oil Calming Refreshing", brand: "Afri Pure", price: 30.00, category: "Oil", image: "https://media.takealot.com/covers_images/8975235bd9db4a8c81a838b5b5e523bb/s-zoom.file" },
   { id: 287, name: "Afri Pure – Coconut Oil Moisturizes Hair", brand: "Afri Pure", price: 60.00, category: "Oil", image: "https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDc4NjI2fGltYWdlL2pwZWd8YURJekwyaGtNaTh4TVRZeE56UTBOekV4Tmpnek1BfDllN2U5ZDdmYjVhNTcyMGFiMmQ1YWRmN2I4MDFjMTYwNzhiZThmZDBhNjRhNGM2ZGE5NmY4ZDU0Zjg2MDY3ZjM" },
