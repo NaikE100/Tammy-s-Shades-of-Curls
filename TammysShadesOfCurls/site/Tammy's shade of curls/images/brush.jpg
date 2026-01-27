@@ -1,0 +1,11 @@
+<!-- Placeholder for brush image -->
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f8f9fa"/>
+  <rect x="120" y="100" width="60" height="80" rx="5" fill="#667eea"/>
+  <line x1="130" y1="80" x2="130" y2="100" stroke="#764ba2" stroke-width="3"/>
+  <line x1="140" y1="80" x2="140" y2="100" stroke="#764ba2" stroke-width="3"/>
+  <line x1="150" y1="80" x2="150" y2="100" stroke="#764ba2" stroke-width="3"/>
+  <line x1="160" y1="80" x2="160" y2="100" stroke="#764ba2" stroke-width="3"/>
+  <line x1="170" y1="80" x2="170" y2="100" stroke="#764ba2" stroke-width="3"/>
+  <text x="150" y="200" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Brush</text>
+</svg>

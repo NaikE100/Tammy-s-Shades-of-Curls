@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tammy's Shades of Curls - Premium Hair Products | tammyscurls.com</title>
+  <meta name="description" content="Premium hair products for every curl, wave, and style. Professional tools for salon-quality results at home. Visit tammyscurls.com for the best hair care products.">
+  <meta name="keywords" content="hair products, hair dryers, straighteners, curling irons, hair brushes, hair trimmers, professional hair tools, tammyscurls">
+  <meta name="author" content="Tammy's Shades of Curls">
+  <meta property="og:title" content="Tammy's Shades of Curls - Premium Hair Products">
+  <meta property="og:description" content="Premium hair products for every curl, wave, and style. Professional tools for salon-quality results at home.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tammyscurls.com">
+  <link rel="canonical" href="https://tammyscurls.com">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container container">
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <!-- Cart jumps straight to checkout -->
+        <li><a href="#checkout" class="nav-link cart-icon"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a></li>
+      </ul>
+      <div class="nav-logo">
+        <img src="logo.png" alt="Tammy's Shades of Curls Logo" class="logo-image">
+        <h2>Tammy's Shades of Curls</h2>
+      </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Discover Your Perfect Hair Style</h1>
+        <p>Premium hair products for every curl, wave, and style. Professional tools for salon-quality results at home.</p>
+        <a href="#products" class="cta-button">Shop Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="shades_of_curls.png-removebg-preview.png" alt="Beautiful diverse hair textures - Tammy's Shades of Curls">
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <div class="container">
+      <h2>Shop by Category</h2>
+      <div class="category-grid">
+        <div class="category-card" data-category="oils">
+          <i class="fas fa-tint"></i>
+          <h3>Hair Oils</h3>
+          <p>Premium natural oils for hair growth</p>
+        </div>
+        <div class="category-card" data-category="treatments">
+          <i class="fas fa-leaf"></i>
+          <h3>Hair Treatments</h3>
+          <p>Professional repair treatments</p>
+        </div>
+        <div class="category-card" data-category="dryers">
+          <i class="fas fa-wind"></i>
+          <h3>Hair Dryers</h3>
+          <p>Professional dryers for perfect styling</p>
+        </div>
+        <div class="category-card" data-category="brushes">
+          <i class="fas fa-brush"></i>
+          <h3>Brushes &amp; Combs</h3>
+          <p>Gentle detangling and styling</p>
+        </div>
+        <div class="category-card" data-category="curlers">
+          <i class="fas fa-circle"></i>
+          <h3>Curlers &amp; Rollers</h3>
+          <p>Create beautiful curls and waves</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Featured Products</h2>
+
+      <div class="filter-bar">
+        <select id="category-filter">
+          <option value="">All Categories</option>
+          <option value="oils">Hair Oils</option>
+          <option value="treatments">Hair Treatments</option>
+          <option value="dryers">Hair Dryers</option>
+          <option value="brushes">Brushes &amp; Combs</option>
+          <option value="curlers">Curlers &amp; Rollers</option>
+        </select>
+        <select id="sort-filter">
+          <option value="name">Sort by Name</option>
+          <option value="price-low">Price: Low to High</option>
+          <option value="price-high">Price: High to Low</option>
+        </select>
+      </div>
+
+      <div id="products-grid" class="products-grid">
+        <!-- Products will be loaded here by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <h2>About Tammy's Shades of Curls</h2>
+        <p>We're passionate about helping you achieve your perfect hair style with premium natural products. Our carefully curated selection of professional hair oils, treatments, and styling tools ensures you get salon-quality results at home.</p>
+        <p>From nourishing hair oils to professional styling tools, we offer everything you need to create stunning looks for any occasion.</p>
+
+        <div class="features">
+          <div class="feature"><i class="fas fa-leaf"></i><h3>Natural Ingredients</h3><p>Premium natural oils and treatments</p></div>
+          <div class="feature"><i class="fas fa-shipping-fast"></i><h3>Fast Delivery</h3><p>Quick delivery across Western Cape</p></div>
+          <div class="feature"><i class="fas fa-headset"></i><h3>Expert Advice</h3><p>Professional hair care guidance</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="contact-item"><i class="fas fa-phone"></i><p>062 671 8275</p></div>
+          <div class="contact-item"><i class="fas fa-envelope"></i><p>TSAAYMAN9@GMAIL.COM</p></div>
+          <div class="contact-item"><i class="fas fa-map-marker-alt"></i><p>GEORGE, WESTERN CAPE</p></div>
+          <div class="contact-item"><i class="fab fa-facebook"></i><p><a href="https://www.facebook.com/share/1CDZPDRubC/?mibextid=wwXIfr" target="_blank" style="color:inherit;text-decoration:none;">TAMMY'S SHADES OF CURLS</a></p></div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="container">
+      <h2>Stay Updated</h2>
+      <p>Subscribe to our newsletter for the latest products and styling tips!</p>
+      <form class="newsletter-form" id="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Checkout (PayFast) -->
+  <section id="checkout" class="checkout">
+    <div class="container">
+      <h2>Secure Checkout</h2>
+
+      <script type="text/javascript">
+      function shippingRequiredPayFast(formReference){
+        let cont = true;
+        for(let i=0;i<formReference.elements.length;i++){
+          if(formReference.elements[i].className !== 'shipping') continue;
+          if(formReference.elements[i].name === 'line2') continue;
+          if(!cont) continue;
+
+          if(formReference.elements[i].name === 'country'){
+            if(formReference.elements[i].selectedIndex === 0){
+              cont = false; alert('Select a country');
+            }
+          }else{
+            if(0 === formReference.elements[i].value.length || /^\s*$/.test(formReference.elements[i].value)){
+              cont = false; alert('Complete all the mandatory address fields');
+            }
+          }
+        }
+        if(!cont) return cont;
+      }
+      </script>
+
+      <script type="text/javascript">
+      function customQuantitiesPayFast(formReference){
+        formReference['amount'].value = (parseFloat(formReference['amount'].value||0) * parseInt(formReference['custom_quantity'].value||1,10)).toFixed(2);
+        return true;
+      }
+      </script>
+
+      <script type="text/javascript">
+      function actionPayFastJavascript(formReference){
+        let shippingValid = shippingRequiredPayFast(formReference);
+        let shippingValidOrOff = typeof shippingValid !== 'undefined' ? shippingValid : true;
+        let customValid = shippingValidOrOff ? customQuantitiesPayFast(formReference) : false;
+        if(typeof shippingValid !== 'undefined' && !shippingValid) return false;
+        if(typeof customValid !== 'undefined' && !customValid) return false;
+        return true;
+      }
+      </script>
+
+      <form onsubmit="return actionPayFastJavascript(this);" name="PayFastPayNowForm" action="https://payment.payfast.io/eng/process" method="post" autocomplete="on">
+        <input required type="hidden" name="cmd" value="_paynow">
+        <input required type="hidden" name="receiver" pattern="[0-9]" value="31555655">
+        <input required type="hidden" name="item_name" maxlength="255" value="Tammy's Shades of Curls - Hair Products">
+        <input type="hidden" name="return_url" value="https://www.tammyscurls.com/index.html?paid=1#thank-you">
+        <input type="hidden" name="cancel_url" value="https://www.tammyscurls.com/index.html?cancel=1#checkout">
+        <input type="hidden" name="notify_url" value="https://www.tammyscurls.com/payfast_notify.php">
+
+        <div class="checkout-summary">
+          <h3>Order Summary</h3>
+          <div id="cart-summary">
+            <p>Your cart is empty</p>
+          </div>
+          <div class="total-section">
+            <strong>Total: R<span id="cart-total-display">0.00</span></strong>
+          </div>
+        </div>
+
+        <div class="payment-section">
+          <h3>Payment Details</h3>
+          <div class="form-row">
+            <label>Amount (R)
+              <input required id="PayFastAmount" type="number" step=".01" name="amount" min="5.00" placeholder="5.00" value="5.00">
+            </label>
+            <label>Quantity
+              <input required id="custom_quantity" type="number" name="custom_quantity" value="1" min="1">
+            </label>
+          </div>
+        </div>
+
+        <div class="shipping-section">
+          <h3>Shipping Address</h3>
+          <div class="shipping-grid">
+            <input type="text" name="line1" class="shipping" placeholder="Street Address *" required>
+            <input type="text" name="line2" class="shipping" placeholder="Apartment, Suite, etc. (optional)">
+            <input type="text" class="shipping" name="city" placeholder="City *" required>
+            <input type="text" class="shipping" name="region" placeholder="Province *" required>
+            <select name="country" class="shipping" required>
+              <option value="" selected>- Select Country -</option>
+              <option value="South Africa">South Africa</option>
+              <option value="">------------------------</option>
+              <option value="Botswana">Botswana</option>
+              <option value="Lesotho">Lesotho</option>
+              <option value="Mauritius">Mauritius</option>
+              <option value="Mozambique">Mozambique</option>
+              <option value="Swaziland">Swaziland</option>
+              <option value="Zimbabwe">Zimbabwe</option>
+            </select>
+            <input type="number" name="code" class="shipping" placeholder="Postal Code *" required>
+          </div>
+        </div>
+
+        <div class="payment-button">
+          <button type="submit" class="pf-btn">
+            <i class="fas fa-credit-card"></i>
+            Pay with PayFast
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">
+            <img src="logo.png" alt="Tammy's Shades of Curls Logo" class="footer-logo-image">
+            <h3>Tammy's Shades of Curls</h3>
+          </div>
+          <p>Premium hair products for every style.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-links">
+            <a href="https://www.facebook.com/share/1CDZPDRubC/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Tammy's Shades of Curls. All rights reserved. | tammyscurls.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+  <!-- Product Loading Script -->
+  <script>
+      // Global variable to store products
+      window.products = [];
+
+      document.addEventListener('DOMContentLoaded', async function() {
+          try {
+              console.log('Loading products...');
+              const response = await fetch('assets/products.json');
+              
+              if (!response.ok) {
+                  throw new Error(`HTTP error! status: ${response.status}`);
+              }
+              
+              const productsData = await response.json();
+              console.log('Products loaded:', productsData.length);
+              
+              // Update the global products variable
+              window.products = productsData;
+              
+              // Call the displayProducts function if it exists
+              if (typeof displayProducts === 'function') {
+                  displayProducts(window.products);
+              } else {
+                  console.log('displayProducts function not found, loading products directly...');
+                  loadProductsDirectly(window.products);
+              }
+              
+          } catch (error) {
+              console.error('Error loading products:', error);
+              // Fallback: display empty if products fail to load
+              if (typeof displayProducts === 'function') {
+                  displayProducts([]);
+              } else {
+                  loadProductsDirectly([]);
+              }
+          }
+      });
+      
+      function loadProductsDirectly(productsToRender) {
+          const productsGrid = document.getElementById('products-grid');
+          if (!productsGrid) return;
+          
+          productsGrid.innerHTML = ''; // Clear existing static products
+          
+          productsToRender.forEach(product => {
+              const productCard = document.createElement('div');
+              productCard.className = 'product-card';
+              productCard.setAttribute('data-id', product.id); // Add data-id for cart
+              productCard.innerHTML = `
+                  <div class="product-image">
+                      <i class="${product.image}"></i>
+                  </div>
+                  <div class="product-info">
+                      <h3>${product.name}</h3>
+                      <p>${product.description}</p>
+                      <div class="product-price">R${product.price.toFixed(2)}</div>
+                      <button class="add-to-cart-btn">Add to Cart</button>
+                  </div>
+              `;
+              productsGrid.appendChild(productCard);
+          });
+          
+          console.log(`Loaded ${productsToRender.length} products directly`);
+          // Re-wire add to cart buttons after new products are rendered
+          if (typeof wireAddToCartButtons === 'function') {
+              wireAddToCartButtons();
+          }
+          // Re-apply filter/sort if needed
+          if (typeof applyFilterSort === 'function') {
+              applyFilterSort();
+          }
+      }
+  </script>
+
+  <!-- Smooth jump to checkout on cart-click and PayFast redirect handling -->
+  <script>
+  (function () {
+    function smoothScrollTo(selector) {
+      const el = document.querySelector(selector);
+      if (!el) return;
+      const y = el.getBoundingClientRect().top + window.scrollY - 80;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+    function banner(msg, tone = 'info') {
+      const b = document.createElement('div');
+      b.textContent = msg;
+      b.style.position = 'fixed';
+      b.style.left = '50%';
+      b.style.top = '14px';
+      b.style.transform = 'translateX(-50%)';
+      b.style.zIndex = '9999';
+      b.style.padding = '12px 18px';
+      b.style.borderRadius = '12px';
+      b.style.color = '#fff';
+      b.style.boxShadow = '0 12px 28px rgba(0,0,0,.18)';
+      b.style.background = tone === 'success'
+        ? 'linear-gradient(135deg,#4caf50,#2e7d32)'
+        : 'linear-gradient(135deg,#ffb347,#ff8c00)';
+      document.body.appendChild(b);
+      setTimeout(() => { b.remove(); }, 3500);
+    }
+    document.addEventListener('DOMContentLoaded', () => {
+      // Handle PayFast redirects
+      const qs = new URLSearchParams(window.location.search);
+      if (qs.get('cancel') === '1') {
+        banner('Checkout cancelled. You can update your cart and try again.');
+        smoothScrollTo('#checkout');
+        history.replaceState(null, '', '#checkout');
+      }
+      if (qs.get('paid') === '1') {
+        banner('Thank you! Your payment has been received.', 'success');
+        try { localStorage.removeItem('tsc_cart_v1'); } catch {}
+        if (typeof updateCartCount === 'function') updateCartCount();
+      }
+
+      // When clicking the cart, jump to checkout and make sure amount is up to date
+      document.querySelectorAll('.cart-icon').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (typeof syncPayFastAmount === 'function') syncPayFastAmount();
+          smoothScrollTo('#checkout');
+          history.replaceState(null, '', '#checkout');
+        });
+      });
+    });
+  })();
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

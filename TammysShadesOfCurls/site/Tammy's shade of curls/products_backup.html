@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Tammy's Shades of Curls</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: white;
+            color: #D2691E;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: #D2691E;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: #FF8C00;
+        }
+
+        /* Page Header */
+        .page-header {
+            background: linear-gradient(135deg, #FFD700 0%, #FF8C00 100%);
+            color: #333;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .page-header p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Products Section */
+        .products {
+            padding: 4rem 0;
+        }
+
+        .products h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        .category {
+            margin-bottom: 4rem;
+        }
+
+        .category h3 {
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            color: #FF8C00;
+            text-align: center;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .product {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+        }
+
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .product-info {
+            padding: 1.5rem;
+        }
+
+        .product h4 {
+            margin-bottom: 0.5rem;
+            color: #333;
+            font-size: 1.2rem;
+        }
+
+        .product p {
+            color: #666;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .price {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #FF8C00;
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #FF8C00;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: all 0.3s;
+            width: 100%;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background: #FF7F00;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            color: #FFD700;
+        }
+
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: #FFD700;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #555;
+            padding-top: 1rem;
+            color: #ccc;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .page-header h1 {
+                font-size: 2rem;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Tammy's Shades of Curls" height="40">
+                Tammy's Shades of Curls
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Discover our complete range of premium hair care products designed specifically for curly hair. From cleansing to styling, we have everything you need for beautiful, healthy curls.</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <!-- Hair Products -->
+            <div class="category">
+                <h3>Hair Care Products</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Curl Defining Cream">
+                        <div class="product-info">
+                            <h4>Curl Defining Cream</h4>
+                            <p>Enhance your natural curl pattern with our lightweight, non-greasy defining cream that provides hold without stiffness.</p>
+                            <div class="price">R89.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Moisturizing Shampoo">
+                        <div class="product-info">
+                            <h4>Moisturizing Shampoo</h4>
+                            <p>Gentle cleansing that won't strip your hair of its natural oils and moisture. Perfect for daily use.</p>
+                            <div class="price">R79.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Leave-In Conditioner">
+                        <div class="product-info">
+                            <h4>Leave-In Conditioner</h4>
+                            <p>Daily moisture and protection for your curls with our lightweight leave-in formula that detangles and nourishes.</p>
+                            <div class="price">R95.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Curl Refresher Spray">
+                        <div class="product-info">
+                            <h4>Curl Refresher Spray</h4>
+                            <p>Revive your curls between washes with our refreshing, hydrating spray that brings back bounce and definition.</p>
+                            <div class="price">R65.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Deep Conditioning Mask">
+                        <div class="product-info">
+                            <h4>Deep Conditioning Mask</h4>
+                            <p>Weekly intensive treatment that deeply nourishes and repairs damaged curls for maximum health and shine.</p>
+                            <div class="price">R125.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Curl Oil">
+                        <div class="product-info">
+                            <h4>Curl Oil</h4>
+                            <p>Lightweight oil blend that seals in moisture and adds shine without weighing down your beautiful curls.</p>
+                            <div class="price">R75.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brushes -->
+            <div class="category">
+                <h3>Hair Brushes & Tools</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="images/brush.jpg" alt="Wide-Tooth Comb">
+                        <div class="product-info">
+                            <h4>Wide-Tooth Comb</h4>
+                            <p>Gentle detangling comb designed specifically for curly hair to prevent breakage and maintain curl pattern.</p>
+                            <div class="price">R45.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="images/curling-wand.jpg" alt="Denman Brush">
+                        <div class="product-info">
+                            <h4>Denman Brush</h4>
+                            <p>Professional styling brush that helps distribute products evenly and enhance curl definition.</p>
+                            <div class="price">R85.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="images/hair-dryer.jpg" alt="Diffuser Attachment">
+                        <div class="product-info">
+                            <h4>Diffuser Attachment</h4>
+                            <p>Universal diffuser attachment for hair dryers that helps dry curls gently while maintaining their shape.</p>
+                            <div class="price">R55.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="category">
+                <h3>Styling Tools</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="images/hair-dryer.jpg" alt="Ionic Hair Dryer">
+                        <div class="product-info">
+                            <h4>Ionic Hair Dryer</h4>
+                            <p>Professional ionic hair dryer that reduces frizz and speeds up drying time while protecting your curls.</p>
+                            <div class="price">R299.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="images/straightener.jpg" alt="Curling Wand">
+                        <div class="product-info">
+                            <h4>Curling Wand</h4>
+                            <p>Versatile curling wand with multiple barrel sizes to create different curl patterns and styles.</p>
+                            <div class="price">R199.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="images/curling-wand.jpg" alt="Heat Protectant Spray">
+                        <div class="product-info">
+                            <h4>Heat Protectant Spray</h4>
+                            <p>Essential protection spray that shields your curls from heat damage during styling.</p>
+                            <div class="price">R69.99</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Olaplex Products -->
+            <div class="category">
+                <h3>Olaplex Professional Hair Care</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://healthboutiquejo.com/cdn/shop/files/2606_PDP_N0_2000x2000_920e2031-b6e3-4d49-b74a-3b0b6ba01b15.webp?v=1740257579" alt="Olaplex No.0 Intensive Bond Building Treatment">
+                        <div class="product-info">
+                            <h4>Olaplex No.0 Intensive Bond Building Treatment</h4>
+                            <p>Professional bond building treatment for damaged hair repair and strengthening.</p>
+                            <div class="price">R500.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://i.ebayimg.com/images/g/HOQAAeSwjZdonpGU/s-l1200.jpg" alt="Olaplex No.3 Hair Perfector">
+                        <div class="product-info">
+                            <h4>Olaplex No.3 Hair Perfector 100ml</h4>
+                            <p>At-home hair perfector treatment for damaged and compromised hair.</p>
+                            <div class="price">R630.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bontle Products -->
+            <div class="category">
+                <h3>Bontle Hair Care</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://www.cosmeticconnection.co.za/cdn/shop/products/bontle-hair-mayonnaise-500ml-33327704965270.jpg?v=1655468082&width=600" alt="Bontle Hair Mayonnaise">
+                        <div class="product-info">
+                            <h4>Bontle Hair Mayonnaise 500ml</h4>
+                            <p>Rich hair mayonnaise for deep conditioning and moisture treatment.</p>
+                            <div class="price">R70.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kormesic Products -->
+            <div class="category">
+                <h3>Kormesic Professional Hair Care</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://sc04.alicdn.com/kf/H0c4ab013a9f4442899e2a5c1435d0740q.jpg" alt="Kormesic Argan Oil Conditioner">
+                        <div class="product-info">
+                            <h4>Argan Oil Conditioner 98% Organic Deep Moisturizing</h4>
+                            <p>Deep moisturizing conditioner with 98% organic argan oil for intense hydration.</p>
+                            <div class="price">R110.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://sc04.alicdn.com/kf/Hb3adf0fb3855416897f0e4f94d1f4e7ch.jpg" alt="Kormesic Argan Oil Shampoo">
+                        <div class="product-info">
+                            <h4>Argan Oil Shampoo 98% Organic Nourishing</h4>
+                            <p>Nourishing shampoo with 98% organic argan oil for healthy hair care.</p>
+                            <div class="price">R110.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2024/10/Kormesic-Argan-Hair-Oil-80ml.jpg" alt="Kormesic Argan Hair Oil">
+                        <div class="product-info">
+                            <h4>Kormesic Argan Hair Oil 80ml</h4>
+                            <p>Pure argan hair oil for nourishment, shine, and hair health.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://images.superflive.com/products/SF3ADD723/main_2.jpg?x-oss-process=image/interlace,1/format,webp" alt="Kormesic Argan Oil Hair Mask">
+                        <div class="product-info">
+                            <h4>Kormesic Argan Oil Hair Mask 1kg</h4>
+                            <p>Intensive hair mask with argan oil for deep conditioning treatment.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://sc04.alicdn.com/kf/Hdff3bc36c30a40baa4b84a96e7e18acf0.jpg" alt="Kormesic Botox Keratin Conditioner">
+                        <div class="product-info">
+                            <h4>Kormesic Botox Keratin Conditioner 800ml</h4>
+                            <p>Botox keratin conditioner for smooth, silky hair with professional results.</p>
+                            <div class="price">R110.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2025/06/Kormesic-Botox-Keratin-Mask-500ml.jpg" alt="Kormesic Botox Keratin Mask">
+                        <div class="product-info">
+                            <h4>Kormesic Botox Keratin Mask 500ml</h4>
+                            <p>Professional botox keratin mask for intensive hair treatment and repair.</p>
+                            <div class="price">R90.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2025/06/Kormesic-Botox-Keratin-Shampoo-800ml.jpg.webp" alt="Kormesic Botox Keratin Shampoo">
+                        <div class="product-info">
+                            <h4>Kormesic Botox Keratin Shampoo 800ml</h4>
+                            <p>Botox keratin shampoo for smooth, manageable hair with professional care.</p>
+                            <div class="price">R110.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://media.takealot.com/covers_images/2596f8ed66cd4a4094a75448400040e6/s-zoom.file" alt="Kormesic Face & Body Scrub Rose Extract">
+                        <div class="product-info">
+                            <h4>Kormesic Face & Body Scrub Rose Extract 350g</h4>
+                            <p>Gentle face and body scrub with rose extract for smooth, glowing skin.</p>
+                            <div class="price">R50.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://media.takealot.com/covers_images/03e3e8f0de8f401dae5980335c7640a1/s-zoom.file" alt="Kormesic Face & Body Scrub Shea Butter">
+                        <div class="product-info">
+                            <h4>Kormesic Face & Body Scrub Shea Butter 350g</h4>
+                            <p>Nourishing face and body scrub with shea butter for soft, moisturized skin.</p>
+                            <div class="price">R50.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://media.takealot.com/covers_images/685a7009c8e942b5b24dfe198619d3b3/s-zoom.file" alt="Kormesic Face & Body Scrub Turmeric">
+                        <div class="product-info">
+                            <h4>Kormesic Face & Body Scrub Turmeric 350g</h4>
+                            <p>Antioxidant-rich face and body scrub with turmeric for bright, healthy skin.</p>
+                            <div class="price">R50.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2024/10/Kormesic-Rosemary-Mint-Hair-Conditioner-480ml.jpg" alt="Kormesic Rosemary Mint Hair Conditioner">
+                        <div class="product-info">
+                            <h4>Kormesic Rosemary Mint Hair Conditioner 480ml</h4>
+                            <p>Refreshing rosemary mint conditioner for invigorating hair care experience.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.makro.co.za/asset/rukmini/fccp/400/400/ng-fkpublic-ui-user-fbbe/hair-treatment/m/x/n/250-rosemary-and-mint-hair-masque-250ml-each-1-kormesic-original-imah85bww2kvqfvh.jpeg?q=90&crop=false" alt="Kormesic Rosemary Mint Hair Mask">
+                        <div class="product-info">
+                            <h4>Kormesic Rosemary Mint Hair Mask 250ml</h4>
+                            <p>Intensive rosemary mint hair mask for deep conditioning and scalp health.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2024/10/Kormesic-Rosemary-Mint-Hair-Oil-50ml.jpg" alt="Kormesic Rosemary Mint Hair Oil">
+                        <div class="product-info">
+                            <h4>Kormesic Rosemary Mint Hair Oil 50ml</h4>
+                            <p>Lightweight rosemary mint hair oil for scalp stimulation and hair growth.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.makro.co.za/asset/rukmini/fccp/850/1000/ng-fkpublic-ui-user-fbbe/shampoo/3/p/x/480-rosemary-and-mint-shampoo-480ml-each-1-kormesic-original-imah85beeynuz7ch.jpeg?q=20" alt="Kormesic Rosemary Mint Shampoo">
+                        <div class="product-info">
+                            <h4>Kormesic Rosemary Mint Shampoo 480ml</h4>
+                            <p>Refreshing rosemary mint shampoo for clean, invigorated hair and scalp.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Afrotex Products -->
+            <div class="category">
+                <h3>Afrotex Hair Care</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://i0.wp.com/hsmcosmetics.co.za/wp-content/uploads/2025/08/img_8751.jpeg?fit=1170%2C1162&ssl=1" alt="Afrotex Cholesterol Plus Conditioning">
+                        <div class="product-info">
+                            <h4>Afrotex Cholesterol Plus Conditioning</h4>
+                            <p>Intensive cholesterol conditioning treatment for deep hair nourishment.</p>
+                            <div class="price">R60.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beauty Pro Products -->
+            <div class="category">
+                <h3>Beauty Pro Hair Care</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://media.takealot.com/covers_images/17124193ca7c43e6974c10749fcde328/s-zoom.file" alt="Beauty Pro Deep Treatment Hair Masque">
+                        <div class="product-info">
+                            <h4>Beauty Pro Deep Treatment Hair Masque</h4>
+                            <p>Intensive deep treatment masque for damaged and dry hair repair.</p>
+                            <div class="price">R50.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.cosmeticconnection.co.za/cdn/shop/products/beauty-pro-hair-growth-shampoo-200ml-33327724363926.jpg?v=1655468486" alt="Beauty Pro Hair Growth Shampoo">
+                        <div class="product-info">
+                            <h4>Beauty Pro Hair Growth Shampoo 200ml</h4>
+                            <p>Hair growth stimulating shampoo for stronger, healthier hair.</p>
+                            <div class="price">R50.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.makro.co.za/asset/rukmini/fccp/850/1000/ng-fkpublic-ui-user-fbbe/conditioner/x/7/f/200-hair-volume-conditioner-each-1-beauty-pro-original-imah4b5gh287enzg.jpeg?q=20" alt="Beauty Pro Hair Volume Conditioner">
+                        <div class="product-info">
+                            <h4>Beauty Pro Hair Volume Conditioner 200ml</h4>
+                            <p>Volume-boosting conditioner for fuller, more voluminous hair.</p>
+                            <div class="price">R50.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.cosmeticconnection.co.za/cdn/shop/products/beauty-pro-miracle-treatment-150ml-jbc-with-extra-dark-potent-987654321203-18345-33327724429462.jpg?v=1655468489" alt="Beauty Pro Miracle Treatment">
+                        <div class="product-info">
+                            <h4>Beauty Pro Miracle Treatment 150ml</h4>
+                            <p>Miracle treatment for hair repair and restoration with potent ingredients.</p>
+                            <div class="price">R60.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://m.media-amazon.com/images/I/71+iYBemnTL.jpg" alt="Beauty Pro Jamaican Black Castor Oil Hair Fertilizer">
+                        <div class="product-info">
+                            <h4>Beauty Pro Jamaican Black Castor Oil Hair Fertilizer</h4>
+                            <p>Jamaican black castor oil hair fertilizer for natural hair growth and strength.</p>
+                            <div class="price">R50.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Auntie Jackie Products -->
+            <div class="category">
+                <h3>Auntie Jackie's Hair Care Products</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://www.tjbeautyproducts.co.uk/cdn/shop/files/magic-mend.webp?v=1717159269&width=1200" alt="Aunt Jackie's Treatment Mixed">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Treatment Mixed 227g</h4>
+                            <p>Professional treatment for all hair types with mixed ingredients for optimal results.</p>
+                            <div class="price">R130.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2021/11/AJAMCoolIt_360x.jpg" alt="Aunt Jackie's Cool It">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Cool It 284g</h4>
+                            <p>Cooling treatment that soothes and refreshes your scalp and hair.</p>
+                            <div class="price">R120.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://assets.superbalistcdn.co.za/filters:quality(75):format(jpg)/3172791/original.jpg" alt="Aunt Jackie's Flawless">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Flawless 284g</h4>
+                            <p>Flawless hair care solution for perfect curls and smooth texture.</p>
+                            <div class="price">R120.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3RiOKmKdLDip2RMB05GUAY7vzTUIUBxi5Vw&s" alt="Aunt Jackie's Hydrate Me">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Hydrate Me 284g</h4>
+                            <p>Intensive hydration treatment for dry and damaged hair.</p>
+                            <div class="price">R135.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://m.media-amazon.com/images/I/51VgLoFFPyL._AC_UF350,350_QL80_.jpg" alt="Aunt Jackie's Aloe & Mint Spa Bundle">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Aloe & Mint Spa Bundle</h4>
+                            <p>Complete spa-like bundle with aloe and mint for refreshing hair care.</p>
+                            <div class="price">R350.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/71wFD1xNd7L._AC_UL900_SR615,900_.jpg" alt="Aunt Jackie's Balance">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Balance 118ml</h4>
+                            <p>Balancing treatment for optimal hair health and moisture balance.</p>
+                            <div class="price">R60.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://m.media-amazon.com/images/I/51tAgVjLNbL._SY580_.jpg" alt="Aunt Jackie's Butter Crème">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Butter Crème 213g</h4>
+                            <p>Rich butter cream for deep conditioning and moisture retention.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://assets.superbalistcdn.co.za/filters:quality(75):format(jpg)/3172853/original.jpg" alt="Aunt Jackie's Coco Repair">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Coco Repair 426g</h4>
+                            <p>Coconut-based repair treatment for damaged and brittle hair.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/2/62232b822ad56_34285689124.jpg?store=default&image-type=image" alt="Aunt Jackie's Coco Wash">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Coco Wash 355ml</h4>
+                            <p>Gentle coconut-based cleansing shampoo for all hair types.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDY4NDU3fGltYWdlL2pwZWd8Y0hKdlpIVmpkQzFwYldGblpYTXZhREF5TDJoak1TODVOREkwTURVMU1UUXdNemd5TG1wd1p3fDVhYjExNmZkZDg1OTFmYzMzNTU3YTMwMjljNmUyMDg2NThmYmIxYjE3M2IzMzNlNGQxMmFhNWY2ZTM2NzQ5MGU" alt="Aunt Jackie's Curl Boss">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Curl Boss 426g</h4>
+                            <p>Professional curl defining and styling product for perfect curls.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://mopani.co.za/cdn/shop/files/249995_40ef1a9e-b809-45fd-be09-5370b6cd5551.webp?v=1692188315" alt="Aunt Jackie's Curl La La">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Curl La La 426g</h4>
+                            <p>Lightweight curl defining cream for natural curl enhancement.</p>
+                            <div class="price">R80.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://dotmall.co.za/cdn/shop/products/100_f28bb75a-b973-4fdb-81fb-e3369791569a_300x300.jpg?v=1604397999" alt="Aunt Jackie's Don't Shrink">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Don't Shrink 426g</h4>
+                            <p>Anti-shrinkage treatment to maintain length and prevent curl shrinkage.</p>
+                            <div class="price">R90.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.auntjackiescurlsandcoils.com/cdn/shop/files/34285660086_AUNTJACKIES_FrizzPatrolSettingMousse_8.5ozBottle_FRONT.jpg?v=1744138188&width=1920" alt="Aunt Jackie's Frizz Patrol">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Frizz Patrol 244ml</h4>
+                            <p>Setting mousse that controls frizz and provides long-lasting hold.</p>
+                            <div class="price">R130.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://dotmall.co.za/cdn/shop/products/80_1024x1024@2x.jpg?v=1603694004" alt="Aunt Jackie's Frizz Rebel">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Frizz Rebel 118ml</h4>
+                            <p>Anti-frizz oil treatment for smooth, manageable hair.</p>
+                            <div class="price">R37.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://mopani.co.za/cdn/shop/products/SKU_241731.jpg?v=1597674897&width=1080" alt="Aunt Jackie's Ice Curls">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Ice Curls 426g</h4>
+                            <p>Cooling curl treatment for refreshing and defining curls.</p>
+                            <div class="price">R130.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.woolworths.co.za/images/elasticera/products/hero/2022-09-23/34285697150_hero.jpg" alt="Aunt Jackie's In Control">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's In Control 426g</h4>
+                            <p>Control and manage your curls with this professional styling product.</p>
+                            <div class="price">R73.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://catalog.sixty60.co.za/v2/files/68003bb5400a553597a72eae?width=1440&height=1440" alt="Aunt Jackie's Kids Baby Curls">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Kids Baby Curls 426g</h4>
+                            <p>Gentle hair care specially formulated for children's delicate hair.</p>
+                            <div class="price">R110.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1NuwI__Me9Ehd2OZFV-qUM4V-6HUXrOZTxg&s" alt="Aunt Jackie's Kids Heads Up">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Kids Heads Up 355ml</h4>
+                            <p>Kids' shampoo for gentle cleansing and hair care.</p>
+                            <div class="price">R80.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/7/67934842d0236_34285666125.jpg?store=default&image-type=image" alt="Aunt Jackie's Kids Knot Havin It">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Kids Knot Havin It 355ml</h4>
+                            <p>Detangling solution for kids' hair to prevent knots and tangles.</p>
+                            <div class="price">R70.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.kiyobeauty.com/cdn/shop/files/Softsassy1_2400x_jpg.webp?v=1727374788&width=1500" alt="Aunt Jackie's Kids Soft & Sassy">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Kids Soft & Sassy 426g</h4>
+                            <p>Soft and gentle hair care for kids with a touch of sass.</p>
+                            <div class="price">R80.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDMzMTI4fGltYWdlL2pwZWd8Y0hKdlpIVmpkQzFwYldGblpYTXZhR1F5TDJnd015ODVNek0zTWpVek1UWTNNVE0wTG1wd1p3fDA1ZWI3Y2U1YjFiMjU1MDU3MGVkZTBiZmFlODk2OTRhZjU0ZDkxMmQ4MTZjNWVhNTBjYTY0ZmQyOWU1YmI4NmI" alt="Aunt Jackie's Knot on My Watch">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Knot on My Watch 355ml</h4>
+                            <p>Professional detangling solution to prevent and remove knots.</p>
+                            <div class="price">R65.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://media.takealot.com/covers_images/a9a2d38af1da429eb1f89a80f9583e00/s-zoom.file" alt="Aunt Jackie's Lather Up">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Lather Up 284g</h4>
+                            <p>Rich lathering shampoo for deep cleansing and hair care.</p>
+                            <div class="price">R120.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/2/622212c6756e9_34258695040.jpg?store=default&image-type=image" alt="Aunt Jackie's Nourish My Hair">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Nourish My Hair 118ml</h4>
+                            <p>Nourishing oil treatment for healthy, strong hair.</p>
+                            <div class="price">R60.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.auntjackiescurlsandcoils.com/cdn/shop/files/34285699123_AUNTJACKIES_OhSoCleanShampoo_12ozBottle_FRONT.jpg?v=1743781641" alt="Aunt Jackie's Oh So Clean">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Oh So Clean 355ml</h4>
+                            <p>Deep cleansing shampoo for thoroughly clean hair.</p>
+                            <div class="price">R65.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://beautizone.co.uk/cdn/shop/products/the-perfect-hydrate-your-curls-kit-650371.jpg?v=1632080112&width=800" alt="Aunt Jackie's Perfect Hydrate Kit">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Perfect Hydrate Kit</h4>
+                            <p>Complete hydration kit for perfect curl care and maintenance.</p>
+                            <div class="price">R290.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/4/6425ba9cd4e62_34285656126_front.jpg?width=200&height=200&store=default&image-type=thumbnail" alt="Aunt Jackie's Power Wash">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Power Wash 355ml</h4>
+                            <p>Powerful cleansing shampoo for deep hair cleaning.</p>
+                            <div class="price">R61.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR02RMOsoPvwPo4H_ARdqiMTZyuoysOVm6yQ&s" alt="Aunt Jackie's Purify Me">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Purify Me 355ml</h4>
+                            <p>Purifying treatment to cleanse and refresh your hair.</p>
+                            <div class="price">R95.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/1/6128c10a6aef1_34285693121.jpg?store=default&image-type=image" alt="Aunt Jackie's Quench">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Quench 355ml</h4>
+                            <p>Thirst-quenching treatment for dry and dehydrated hair.</p>
+                            <div class="price">R120.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/1/6128c10a73fd7_34285694043.jpg?store=default&image-type=image" alt="Aunt Jackie's Repair My Hair">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Repair My Hair 118ml</h4>
+                            <p>Intensive repair treatment for damaged and broken hair.</p>
+                            <div class="price">R50.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2021/07/Aunt-Jackies-Seal-It-Up-Hydrating-Sealing-Butter-213g.jpg" alt="Aunt Jackie's Seal It Up">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Seal It Up 213g</h4>
+                            <p>Hydrating sealing butter to lock in moisture and shine.</p>
+                            <div class="price">R60.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2021/07/Aunt-Jackies-SLICKED-Flexible-Styling-Glue-113ml.jpg.webp" alt="Aunt Jackie's Slicked">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Slicked 113ml</h4>
+                            <p>Flexible styling glue for sleek and smooth hairstyles.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.auntjackiescurlsandcoils.com/cdn/shop/files/34285670085_AUNTJACKIES_SoftAllOverMultiPurposeOil_8ozBottle_FRONT.jpg?v=1744124322" alt="Aunt Jackie's Soft All Over">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Soft All Over 237ml</h4>
+                            <p>Multi-purpose oil for soft, smooth hair all over.</p>
+                            <div class="price">R80.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://m.media-amazon.com/images/I/51tTBvUy2bL._AC_SL1500_.jpg" alt="Aunt Jackie's Spray Bottle">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Spray Bottle 200ml</h4>
+                            <p>Professional spray bottle for hair care applications.</p>
+                            <div class="price">R80.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2021/07/Aunt-Jackies-Tame-My-Edges-Smoothing-Gel-71g2.jpg" alt="Aunt Jackie's Tame My Edges">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Tame My Edges 71g</h4>
+                            <p>Smoothing gel for taming and styling edges and baby hairs.</p>
+                            <div class="price">R100.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2021/07/Aunt-Jackies-RESCUED-Thirst-Quenching-RECOVERY-CONDITIONER-426g.jpg.webp" alt="Aunt Jackie's Rescued">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Rescued 426g</h4>
+                            <p>Thirst-quenching recovery conditioner for damaged hair.</p>
+                            <div class="price">R110.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.woolworths.co.za/images/elasticera/products/hero/2022-09-23/34285696153_hero.jpg" alt="Aunt Jackie's Curl La La Defining Curl Custard">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Curl La La Defining Curl Custard</h4>
+                            <p>Defining curl custard for perfect curl definition and hold.</p>
+                            <div class="price">R50.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.auntjackiescurlsandcoils.com/cdn/shop/files/34285696153_AUNTJACKIES_CurllalaCurlCustard_15ozJar_FRONT_1.jpg?v=1745938164" alt="Aunt Jackie's Curl La La Defining Curl Custard">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Curl La La Defining Curl Custard</h4>
+                            <p>Premium curl custard for enhanced curl definition and styling.</p>
+                            <div class="price">R60.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2022/10/AJ-Bundle-2_1200x.jpg.webp" alt="Aunt Jackie's Elixirs Essentials">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Elixirs Essentials Hair & Scalp Oils</h4>
+                            <p>Essential hair and scalp oils bundle for complete hair care.</p>
+                            <div class="price">R170.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/2/6222811381390_34285671150.jpg?store=default&image-type=image" alt="Aunt Jackie's F/S Curls Mane-tenance">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's F/S Curls Mane-tenance Defining</h4>
+                            <p>Defining treatment for maintaining beautiful curls.</p>
+                            <div class="price">R90.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDcxNzk1fGltYWdlL2pwZWd8Y0hKdlpIVmpkQzFwYldGblpYTXZhR1kwTDJnd01pODRPRFl5TlRVME5EZzRPRFl5TG1wd1p3fGI3NjA0MGQ5MjM2M2ViZjQ3NDU5OGQzOTk3ZjA0YjYxNWVmYmI1ZWZhMTVjYjNmZDE0OTZkMjA2ZDIzZjBmODM" alt="Aunt Jackie's F/S Fix My Hair">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's F/S Fix My Hair Intensive Repair</h4>
+                            <p>Intensive repair treatment for damaged and broken hair.</p>
+                            <div class="price">R75.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2024/02/AJ_sBraidTwistGel_Front-EDIT_2_800x-1.jpg.webp" alt="Aunt Jackie's Hold Tight! Braid & Twist Gel">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Hold Tight! Braid & Twist Gel</h4>
+                            <p>Professional gel for braids and twists with long-lasting hold.</p>
+                            <div class="price">R134.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2021/07/aunt-jackies-eblast.jpg.webp" alt="Aunt Jackie's Kids E-Blast">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Kids E-Blast Vitamin E & Flaxseed</h4>
+                            <p>Vitamin E and flaxseed treatment for kids' hair health.</p>
+                            <div class="price">R110.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://m.media-amazon.com/images/I/61I39qB3jBL.jpg" alt="Aunt Jackie's Oh So Strong!">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Oh So Strong! Shine Boosting</h4>
+                            <p>Shine boosting treatment for strong, lustrous hair.</p>
+                            <div class="price">R133.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2024/02/AJ_sBraidFoam_FrontEDIT_800x-1.jpg" alt="Aunt Jackie's Ready, Set, Hold">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Ready, Set, Hold Braid Setting Foam</h4>
+                            <p>Setting foam for braids with professional hold and style.</p>
+                            <div class="price">R133.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.auntjackiescurlsandcoils.com/cdn/shop/files/34285638153_AUNTJACKIES_TransformLeaveInCond_15ozJar_FRONT.jpg?v=1743774643" alt="Aunt Jackie's Transform!">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Transform! Hydrating Leave-In</h4>
+                            <p>Hydrating leave-in conditioner for transformed hair.</p>
+                            <div class="price">R110.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://static.vecteezy.com/system/resources/previews/052/971/521/non_2x/illustration-of-comb-vector.jpg" alt="Aunt Jackie's Comb">
+                        <div class="product-info">
+                            <h4>Aunt Jackie's Comb</h4>
+                            <p>Professional styling comb for hair care and styling.</p>
+                            <div class="price">R40.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/61LKVRXNAHL._AC_UL210_SR210,210_.jpg" alt="Balance 177ml">
+                        <div class="product-info">
+                            <h4>Balance 177ml - Grapeseed & Avocado</h4>
+                            <p>Balancing treatment with grapeseed and avocado for healthy hair.</p>
+                            <div class="price">R45.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.auntjackiescurlsandcoils.com/cdn/shop/files/34285690045_AUNTJACKIES_FrizzRebelCoconutSweetAlmondOil_4ozBottle_FRONT.jpg?v=1744225500&width=300" alt="Frizz Rebel 177ml">
+                        <div class="product-info">
+                            <h4>Frizz Rebel 177ml - Coconut & Sweet Almond</h4>
+                            <p>Anti-frizz oil with coconut and sweet almond for smooth hair.</p>
+                            <div class="price">R45.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.auntjackiescurlsandcoils.com/cdn/shop/files/34285694043_AUNTJACKIES_RepairMyHairArganOil_4ozBottle_FRONT.jpg?v=1744226232&width=300" alt="Repair My Hair 177ml Argan">
+                        <div class="product-info">
+                            <h4>Repair My Hair 177ml Argan</h4>
+                            <p>Argan oil repair treatment for damaged and broken hair.</p>
+                            <div class="price">R80.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://i5.walmartimages.com/asr/43283bd8-9e8b-482b-8105-4741297824fb.10d92946a880610dfb301a19205ff9c4.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" alt="Shower Hook Comb">
+                        <div class="product-info">
+                            <h4>Shower Hook Comb with Large Wide Teeth</h4>
+                            <p>Professional shower comb with wide teeth for detangling.</p>
+                            <div class="price">R10.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Batana Products -->
+            <div class="category">
+                <h3>Batana Hair Care</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://batanaproduct.store/cdn/shop/files/IMG_1241-removebg-preview.png?v=1755392496&width=3840" alt="Batana Conditioner">
+                        <div class="product-info">
+                            <h4>Batana Conditioner 500ml</h4>
+                            <p>Nourishing conditioner with batana oil for deep hair conditioning and moisture.</p>
+                            <div class="price">R80.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://media.takealot.com/covers_images/b7ef5a1ef5f3401abd852b609d029fd9/s-zoom.file" alt="Batana Hair Mask">
+                        <div class="product-info">
+                            <h4>Batana Hair Mask 500ml</h4>
+                            <p>Intensive hair mask with batana oil for deep conditioning and repair.</p>
+                            <div class="price">R140.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://media.takealot.com/covers_images/c0ce4f085c444a87a143e5ab07b2cd9e/s-zoom.file" alt="Batana Oil">
+                        <div class="product-info">
+                            <h4>Batana Oil 50ml</h4>
+                            <p>Pure batana oil for hair nourishment, shine, and natural hair care.</p>
+                            <div class="price">R130.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://batanaproduct.store/cdn/shop/files/IMG_1241-removebg-preview.png?v=1755392496&width=3840" alt="Batana Shampoo">
+                        <div class="product-info">
+                            <h4>Batana Shampoo 500ml</h4>
+                            <p>Gentle shampoo with batana oil for clean, healthy hair and scalp.</p>
+                            <div class="price">R80.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://media.takealot.com/covers_images/ee798a320d1d4b3a91b08f38f6cb00f6/s-zoom.file" alt="Batana Hair Oil Growth Activation Treatment">
+                        <div class="product-info">
+                            <h4>Batana Hair Oil Growth Activation Treatment 30ml</h4>
+                            <p>Growth activation treatment with batana oil for natural hair growth stimulation.</p>
+                            <div class="price">R100.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Superior Fragrance Products -->
+            <div class="category">
+                <h3>Superior Fragrance</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://superior.africa/wp-content/uploads/2024/10/Versace-Eros-F.png" alt="Superior Fragrance">
+                        <div class="product-info">
+                            <h4>Superior Fragrance</h4>
+                            <p>Premium fragrance for personal care and grooming.</p>
+                            <div class="price">R60.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Two Oceans Products -->
+            <div class="category">
+                <h3>Two Oceans Hair Care</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://twooceanshaircare.com/wp-content/uploads/2023/09/two-oceans-biotin-conditioner-600x816.png" alt="Two Oceans Argan Oil and Biotin Shampoo & Conditioner">
+                        <div class="product-info">
+                            <h4>Argan Oil and Biotin Shampoo & Conditioner</h4>
+                            <p>Complete hair care set with argan oil and biotin for healthy, strong hair.</p>
+                            <div class="price">R180.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://catalog.sixty60.co.za/v2/files/63d3862ff0cbac537c09037b?width=1440&height=1440" alt="Two Oceans Argan+Keratin Brazilian Shampoo & Conditioner">
+                        <div class="product-info">
+                            <h4>Argan+Keratin Brazilian Shampoo & Conditioner 1l</h4>
+                            <p>Brazilian keratin treatment with argan oil for smooth, silky hair.</p>
+                            <div class="price">R180.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beard Kit Products -->
+            <div class="category">
+                <h3>Beard Care</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://www.boredbox.co.za/wp-content/uploads/2024/01/3-Piece-Mens-Beard-Grooming-Kit-Value-Gift-Set-.jpg" alt="Men's Beard Kit">
+                        <div class="product-info">
+                            <h4>Men's Beard Kit</h4>
+                            <p>Complete 3-piece beard grooming kit for men's facial hair care.</p>
+                            <div class="price">R100.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Afri Pure Products -->
+            <div class="category">
+                <h3>Afri Pure Hair & Body Care</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/0/6009712250530_04129eee232b1be4f615514c2f57e4ba.jpg?store=default&image-type=image" alt="Afri Pure Miracle Growth Oil">
+                        <div class="product-info">
+                            <h4>Afri Pure Miracle Growth Oil 50ml</h4>
+                            <p>Miracle growth oil for natural hair growth stimulation and scalp health.</p>
+                            <div class="price">R100.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://assets.grok.com/users/dc64f31b-4176-4def-8559-05dffa653a93/generated/970686f1-b4fd-45f1-acf2-abe7046308e3/image.jpg" alt="Afri Pure Aloe Oil Calming Refreshing">
+                        <div class="product-info">
+                            <h4>Afri Pure Aloe Oil Calming Refreshing</h4>
+                            <p>Calming and refreshing aloe oil for soothing hair and scalp care.</p>
+                            <div class="price">R30.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDc4NjI2fGltYWdlL2pwZWd8YURRMUwyZzFNQzh4TVRJeE1USTRNVGt5TkRFeU5nfDgyNWU3NGM1ODNhODk1ZWY2NjZhMmFhN2M1MTcyN2RkMzZjNjZlNDU3NDkxNjVlYWExNjQ2N2I2ZWE3MDllZDA" alt="Afri Pure Coconut Oil Moisturizes Hair">
+                        <div class="product-info">
+                            <h4>Afri Pure Coconut Oil Moisturizes Hair</h4>
+                            <p>Pure coconut oil for deep hair moisturizing and natural hair care.</p>
+                            <div class="price">R60.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://m.media-amazon.com/images/I/31811V3zxUL._AC_SY580_.jpg" alt="Afri Pure Strengthening Hair">
+                        <div class="product-info">
+                            <h4>Afri Pure Strengthening Hair</h4>
+                            <p>Hair strengthening treatment for stronger, healthier hair growth.</p>
+                            <div class="price">R70.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://images-eu.ssl-images-amazon.com/images/I/618W1StctAL._AC_UL600_SR600,600_.jpg" alt="Afri Pure Blended Tea Tree Oil">
+                        <div class="product-info">
+                            <h4>Afri Pure Blended Tea Tree Oil 100ml</h4>
+                            <p>Antiseptic tea tree oil blend for scalp health and hair care.</p>
+                            <div class="price">R45.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://m.media-amazon.com/images/I/41uBoSN-2HL.jpg_BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg" alt="Afri Pure Body Oil All Rounder">
+                        <div class="product-info">
+                            <h4>Afri Pure Body Oil All Rounder 180ml</h4>
+                            <p>Versatile all-rounder body oil for complete body care and moisturizing.</p>
+                            <div class="price">R85.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://m.media-amazon.com/images/I/31kss4XvLbL._SY580_.jpg" alt="Afri Pure Body Oil Glo to Go">
+                        <div class="product-info">
+                            <h4>Afri Pure Body Oil Glo to Go 180ml</h4>
+                            <p>Portable body oil for on-the-go moisturizing and skin care.</p>
+                            <div class="price">R85.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/0/6009712250950_76aa803950bbed4660c1c7caaa59c271.jpg?store=default&image-type=image" alt="Afri Pure Body Oil Moisture Burst">
+                        <div class="product-info">
+                            <h4>Afri Pure Body Oil Moisture Burst 180ml</h4>
+                            <p>Intensive moisture burst body oil for deep skin hydration.</p>
+                            <div class="price">R85.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/0/6009712250936_54185799ec80c31d2a1dbe8074bc04fd.jpg?store=default&image-type=image" alt="Afri Pure Vit Me C + E">
+                        <div class="product-info">
+                            <h4>Afri Pure Vit Me C + E 180ml</h4>
+                            <p>Vitamin C and E enriched body oil for antioxidant skin care.</p>
+                            <div class="price">R85.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://media.takealot.com/covers_images/8975235bd9db4a8c81a838b5b5e523bb/s-zoom.file" alt="Afri Pure Vitamin E Blended Oil">
+                        <div class="product-info">
+                            <h4>Afri Pure Vitamin E Blended Oil 100ml</h4>
+                            <p>Vitamin E blended oil for skin nourishment and hair care.</p>
+                            <div class="price">R45.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://m.media-amazon.com/images/I/41lwL+MtNVL.jpg" alt="Afri Pure Hair Elixir Rosemary & Mint">
+                        <div class="product-info">
+                            <h4>Afri Pure Hair Elixir Rosemary & Mint 100ml</h4>
+                            <p>Refreshing rosemary and mint hair elixir for scalp stimulation.</p>
+                            <div class="price">R70.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://m.media-amazon.com/images/I/31qE-TZEtiL._AC_SY580_.jpg" alt="Afri Pure Hair Elixir Shea Butter">
+                        <div class="product-info">
+                            <h4>Afri Pure Hair Elixir Shea Butter 100ml</h4>
+                            <p>Nourishing shea butter hair elixir for deep conditioning and moisture.</p>
+                            <div class="price">R60.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://clicks.co.za/medias/?context=bWFzdGVyfHByb2R1Y3QtaW1hZ2VzfDcxNzgxfGltYWdlL2pwZWd8YUdZeEwyaGlOaTh4TVRRNU5UazNPVFE0TXpFMk5nfDYyNDU2NjYwMWJkYjY2MmI1ZDczMjc2Y2VkMGIyNmY1YzQwM2E5ODc3YTQ0Yjc4NTgyNmQ5OWZiNGQ3OTY1N2E" alt="Afri Pure Jamaican Black Castor Oil">
+                        <div class="product-info">
+                            <h4>Afri Pure Jamaican Black Castor Oil 200ml</h4>
+                            <p>Authentic Jamaican black castor oil for hair growth and strength.</p>
+                            <div class="price">R80.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.makro.co.za/asset/rukmini/fccp/850/1000/ng-fkpublic-ui-user-fbbe/hair-styling/u/e/v/100-argan-oil-100ml-each-1-afri-pure-hair-lotion-original-imahae4ekzwgfhnh.jpeg?q=20" alt="Afri Pure Oil Blend Argan">
+                        <div class="product-info">
+                            <h4>Afri Pure Oil Blend 100ml Argan</h4>
+                            <p>Pure argan oil blend for hair nourishment, shine, and health.</p>
+                            <div class="price">R60.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.indiabazaar.co.za/cdn/shop/files/afri-pure-avacado-oil-100ml.jpg?v=1683233656" alt="Afri Pure Oil Blend Avocado">
+                        <div class="product-info">
+                            <h4>Afri Pure Oil Blend 100ml Avocado</h4>
+                            <p>Nutritious avocado oil blend for hair and skin nourishment.</p>
+                            <div class="price">R30.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/0/6009694914581_46500c335afe7cae301d8c3078f71728.jpg?store=default&image-type=image" alt="Afri Pure Oil Blend Jojoba">
+                        <div class="product-info">
+                            <h4>Afri Pure Oil Blend 100ml Jojoba</h4>
+                            <p>Lightweight jojoba oil blend for hair and scalp health.</p>
+                            <div class="price">R30.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/6/0/6009694918497_56d7c7c074cd2e02d657ad4fad9d7be9.jpg?store=default&image-type=image" alt="Afri Pure Oil Blend Peppermint">
+                        <div class="product-info">
+                            <h4>Afri Pure Oil Blend 100ml Peppermint</h4>
+                            <p>Refreshing peppermint oil blend for invigorating hair and scalp care.</p>
+                            <div class="price">R30.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Garnier Products -->
+            <div class="category">
+                <h3>Garnier Hair Care</h3>
+                <div class="products-grid">
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2023/06/BANANA-HAIR-FOOD.jpg" alt="Garnier Ultimate Blends Hair Food Banana">
+                        <div class="product-info">
+                            <h4>Garnier Ultimate Blends Hair Food Banana 3-in-1</h4>
+                            <p>3-in-1 hair food with banana for nourishment, conditioning, and styling.</p>
+                            <div class="price">R110.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkHwC9jQIx-h8ZMsm3wW7Z8Nk4mXjZvo-ypQ&s" alt="Garnier Ultimate Blends Hair Food Coconut">
+                        <div class="product-info">
+                            <h4>Garnier Ultimate Blends Hair Food Coconut</h4>
+                            <p>Coconut-infused hair food for tropical hair care and nourishment.</p>
+                            <div class="price">R110.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2023/06/Watermelon-Hair-Food-3-in-1-Multi-Use-Hair-Mask.jpg" alt="Garnier Ultimate Blends Hair Food Watermelon">
+                        <div class="product-info">
+                            <h4>Garnier Ultimate Blends Hair Food Watermelon</h4>
+                            <p>Refreshing watermelon hair food for hydrating and revitalizing hair.</p>
+                            <div class="price">R110.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7KRda3WqiRA3fqE0BKY0fF9vkq_tB3mA25A&s" alt="Garnier Ultimate Blends Nourishing Banana Hair">
+                        <div class="product-info">
+                            <h4>Garnier Ultimate Blends Nourishing Banana Hair</h4>
+                            <p>Nourishing banana hair care for soft, manageable hair.</p>
+                            <div class="price">R85.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://www.dischem.co.za/api/catalog/product/3/6/3600542342896_f16ef7bdec61e8bb8d93919a8112fdbd.jpg?store=default&image-type=image" alt="Garnier Ultimate Blends Nourishing Banana Hair">
+                        <div class="product-info">
+                            <h4>Garnier Ultimate Blends Nourishing Banana Hair</h4>
+                            <p>Premium nourishing banana hair treatment for healthy hair care.</p>
+                            <div class="price">R90.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://m.media-amazon.com/images/I/31-LBWfY2gL._SY580_.jpg" alt="Garnier Ultimate Blends Plumping Hair Food">
+                        <div class="product-info">
+                            <h4>Garnier Ultimate Blends Plumping Hair Food</h4>
+                            <p>Plumping hair food for volume and body in your hair.</p>
+                            <div class="price">R85.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvB27PKTbCHEL6eeH6MtbozxExZ3IQmIEONQ&s" alt="Garnier Ultimate Blends Plumping Hair Food">
+                        <div class="product-info">
+                            <h4>Garnier Ultimate Blends Plumping Hair Food</h4>
+                            <p>Advanced plumping hair food for enhanced volume and texture.</p>
+                            <div class="price">R85.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn6P3iRIglxh_GOgZVmnCbWTDNTc3O10nPGw&s" alt="Garnier Ultimate Blends Smoothing Coconut Hair">
+                        <div class="product-info">
+                            <h4>Garnier Ultimate Blends Smoothing Coconut Hair</h4>
+                            <p>Smoothing coconut hair care for silky, manageable hair.</p>
+                            <div class="price">R90.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <img src="https://splendit.co.za/wp-content/uploads/2023/06/COCONUT-HAIR-FOOD-SHAMPOO-1.jpg" alt="Garnier Ultimate Blends Smoothing Coconut">
+                        <div class="product-info">
+                            <h4>Garnier Ultimate Blends Smoothing Coconut</h4>
+                            <p>Coconut smoothing shampoo for tropical hair care experience.</p>
+                            <div class="price">R90.00</div>
+                            <a href="#" class="btn">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="products.html">Products</a></p>
+                    <p><a href="about.html">About</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Email: info@tammysshadesofcurls.com</p>
+                    <p>Phone: +27 (0) 11 123 4567</p>
+                    <p>Address: Johannesburg, South Africa</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <p><a href="#">Facebook</a></p>
+                    <p><a href="#">Instagram</a></p>
+                    <p><a href="#">Twitter</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Tammy's Shades of Curls. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

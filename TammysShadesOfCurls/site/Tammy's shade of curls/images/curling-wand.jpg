@@ -1,0 +1,8 @@
+<!-- Placeholder for curling wand image -->
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f8f9fa"/>
+  <line x1="150" y1="50" x2="150" y2="200" stroke="#667eea" stroke-width="8"/>
+  <circle cx="150" cy="50" r="15" fill="#764ba2"/>
+  <path d="M150 200 Q160 190 150 180 Q140 190 150 200" fill="#667eea"/>
+  <text x="150" y="230" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">Curling Wand</text>
+</svg>
